@@ -1,17 +1,61 @@
 // _mobile.scss
 
 @media screen and (max-width: 768px) {
-  @media screen and (max-width: 768px) {
-    body {
-      background-color: lightblue;
+  body {
+    font-family: $primary-font;
+  }
+
+  .navbar__title {
+    margin: 10px;
+    &--strong {
+      font-weight: bolder;
+      letter-spacing: 1px;
     }
-    
-    h1 {
-      font-family: $primary-font;
-      font-size: 24px;
+    &--thin {
+      letter-spacing: 2px;
+      font-weight: lighter;
     }
-    h2 {
-      font-family: $secondary-font;
+  }
+  .navbar__toggle {
+    font-size: 25px;
+    margin: 10px 0px 10px 25px;
+    &--user {
+      font-size: 25px;
     }
+    &--search {
+      font-size: 25px;
+    }
+  }
+  .navbar__usersearch {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 70px;
+  }
+
+  .navbar__square {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 14px 24px #f0eeee;
+    margin-left: 30px;
+  }
+
+  .navbar__letter {
+    font-weight: bold;
+  }
+
+  .navbar__nav {
+    display: none;
+  }
+
+  h1 {
+    font-family: $primary-font;
+    font-size: 24px;
+  }
+  h2 {
+    font-family: $secondary-font;
   }
 }

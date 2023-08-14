@@ -10,9 +10,51 @@ html, * {
   padding: 0;
 }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   body {
-    background-color: lightblue;
+    font-family: "Archivo", Arial;
+  }
+  .navbar__title {
+    margin: 10px;
+  }
+  .navbar__title--strong {
+    font-weight: bolder;
+    letter-spacing: 1px;
+  }
+  .navbar__title--thin {
+    letter-spacing: 2px;
+    font-weight: lighter;
+  }
+  .navbar__toggle {
+    font-size: 25px;
+    margin: 10px 0px 10px 25px;
+  }
+  .navbar__toggle--user {
+    font-size: 25px;
+  }
+  .navbar__toggle--search {
+    font-size: 25px;
+  }
+  .navbar__usersearch {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 70px;
+  }
+  .navbar__square {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 14px 24px #f0eeee;
+    margin-left: 30px;
+  }
+  .navbar__letter {
+    font-weight: bold;
+  }
+  .navbar__nav {
+    display: none;
   }
   h1 {
     font-family: "Archivo", Arial;
@@ -29,4 +71,20 @@ html, * {
   h1 {
     font-size: 36px;
   }
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar__logo {
+  display: block;
+}
+
+.navbar__nav {
+  display: none;
+}
+.navbar__nav--notdisplay {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

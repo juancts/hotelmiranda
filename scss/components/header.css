@@ -1,4 +1,5 @@
-.logo {
+.navbar {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
 }/*# sourceMappingURL=header.css.map */
