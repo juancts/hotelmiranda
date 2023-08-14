@@ -1,5 +1,4 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   min-width: 320px;
@@ -16,10 +15,14 @@ html, * {
     background-color: lightblue;
   }
   h1 {
+    font-family: "Archivo", Arial;
     font-size: 24px;
   }
+  h2 {
+    font-family: "Old Standard TT", Arial;
+  }
 }
-@media screen and (min-width: 1000px) {
+@media only screen and (min-width: 1000px) {
   body {
     background-color: lightgreen;
   }

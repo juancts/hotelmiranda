@@ -11,5 +11,8 @@
     "url": "hotelmiranda"
   },
   "author": "Jota web design",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react-icons": "^4.10.1"
+  }
 }

@@ -1,1 +1,4 @@
-/*# sourceMappingURL=header.css.map */
+.logo {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=header.css.map */
