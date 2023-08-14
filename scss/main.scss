@@ -1,9 +1,11 @@
 // main.scss
 
-@import 'variables';
-@import 'base';
-@import 'mobile';
-@import 'tablet';
-@import 'desktop';
+@import 'layouts/variables';
+@import 'layouts/base';
+@import 'layouts/mobile';
+@import 'layouts/tablet';
+@import 'layouts/desktop';
+@import 'components/footer';
+@import 'components/header';
 
 // Otros estilos...
