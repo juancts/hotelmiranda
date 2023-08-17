@@ -129,13 +129,42 @@
                 <i class="fas fa-cocktail"></i>
             </div>
             <div class="rooms__slider">
-                
+                <img class="rooms__slider--left" src="./dist/images/Frame 59.png" alt="siguiente">
+                <img class="rooms__slider--right" src="./dist/images/Frame 60.png" alt="atras">
             </div>
         </div>
+
+            <div class="minimal">
+                <div class="minimal__content">
+                    <div class="minimal__title">
+                        <h1>
+                            Minimal Duplex Room
+                        </h1>
+                    </div> 
+                     <div class="minimal__txt">
+                         <h3>
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque veritatis non dolor adipisci sequi.
+                         </h3>
+                     </div>
+                     <div class="minimal__price">
+                         <span class="minimal__price--value">$345</span>
+                         <span class="minimal__price--night">/Night</span>
+                     </div>
+                 </div>
+
+                </div>
+    </section>
+    
+    <section>
+
     </section>
 
     <section>
+    
+    </section>
 
+    <section>
+    
     </section>
     
 <!-- </body>     -->
