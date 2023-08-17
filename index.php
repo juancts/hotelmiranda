@@ -135,8 +135,9 @@
         </div>
 
             <div class="minimal">
+                
                 <div class="minimal__content">
-                    <div class="minimal__title">
+                    <div class="minimal__txt">
                         <h1>
                             Minimal Duplex Room
                         </h1>
@@ -155,16 +156,122 @@
                 </div>
     </section>
     
-    <section>
+    <section class="introvideo">
+    <div class="introvideo__content">
+        <div class="introvideo__title">
+            <h3>INTRO VIDEO</h3>
+        </div>
+        <div class="introvideo__subtitle">
+            <h1>Meet With Our Luxury Place.</h1>
+        </div>
+        <div class="introvideo__paragraph">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex hic quis officiis soluta cupiditate nihil recusandae voluptate dolor vitae, fugit aliquam quos repudiandae. Accusantium incidunt inventore quaerat qui iusto!</p>
+        </div>
+        <div class="introvideo__video">
+            <img src="./dist/images/Rectanglevideo.png"></img>
+        </div>
+        <div class="introvideo__button">
+            <button class="banner__button banner__button--ca">BOOK NOW</button>
+        </div>
+
+    </div>
 
     </section>
 
-    <section>
-    
+    <section class="facilities">
+       <div class="facilities__content">
+           <div class="facilities__title">
+                   <h3>FACILITIES</h3>
+           </div>
+           <div class="facilities__subtitle">
+            <h1>Core Features</h1>
+           </div>
+           <div class="facilities__iconos">
+            <img id="img1" src="./dist/images/icon1.png" alt="iconodedo">
+            <img id="img2" src="./dist/images/01.png" alt="icononumero">
+           </div>
+           <div class="facilities__subsubtitle">
+                <h1>
+                    Have High Rating
+                </h1>
+           </div>
+           <div class="facilities__paragraph">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptates suscipit excepturi incidunt voluptas earum corporis dolor iure quis similique sit laudantium, rerum reiciendis dolore, quibusdam, rem esse sapiente accusamus!</p>
+           </div>
+           <div class="facilities__pagination">
+            <img src="./dist/images/Frame90.png" alt="">
+           </div>
+       </div> 
+
+        
     </section>
 
-    <section>
-    
+    <section class="menu">
+        <div class="menu__content">
+            <div class="menu__title">
+                <h3>MENU</h3>
+            </div>
+            <div class="menu__icono">
+                    <img src="./dist/images/icon4.png" alt="iconomenu">
+            </div>
+            <div class="menu__submenu">
+                    <h1>
+                        Our Foods Menu
+                    </h1>
+            </div>
+            <div class="menuslider">
+<!-- //DATA SLIDER 1 -->
+               <div class="menuslider__data">
+                   <div class="menuslider__data--photo">
+                       <img src="" alt="">
+                   </div>
+                    <div class="menuslider__data--title">
+                        <div class="title">
+                            <h1>Eggs & Bacon</h1>
+                        </div>
+                        <div class="menuslider__data--description">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            </p>
+                        </div>    
+                    </div>
+               </div> 
+<!-- //DATA SLIDER 2 -->    
+            <div class="menuslider__data">
+                <div class="menuslider__data--photo">
+                    <img src="" alt="">
+                </div>
+                 <div class="menuslider__data--title">
+                     <div class="title">
+                         <h1>Eggs & Bacon</h1>
+                     </div>
+                     <div class="menuslider__data--description">
+                         <p>
+                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                         </p>
+                     </div>    
+                 </div>
+            </div>  
+<!-- //DATA SLIDER 3 -->    
+            <div class="menuslider__data">
+                <div class="menuslider__data--photo">
+                    <img src="" alt="">
+                </div>
+                 <div class="menuslider__data--title">
+                     <div class="title">
+                         <h1>Eggs & Bacon</h1>
+                     </div>
+                     <div class="menuslider__data--description">
+                         <p>
+                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                         </p>
+                     </div>    
+                 </div>
+            </div>
+            </div>
+
+        </div>
+
     </section>
     
 <!-- </body>     -->
