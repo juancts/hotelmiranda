@@ -105,12 +105,33 @@
     </div>
     </div>
 </div>
-         
-
-    </section>
- <!-- ROOMS -->
-    <section>
-
+</section>
+          <!-- ROOMS -->
+    <section class="rooms">
+        <div class="rooms__content">
+            <div class="rooms__title">
+                <h3>
+                    ROOMS
+                </h3>
+            </div>
+            <div class="rooms__title rooms__title--subtitle">
+                <h1>
+                    Hand Picked Rooms
+                </h1>
+            </div>
+            <div class="rooms__icons">
+                <i class="fas fa-bed"></i> 
+                <i class="fas fa-wifi"></i> 
+                <i class="fas fa-car"></i> 
+                <i class="fas fa-snowflake"></i> 
+                <i class="fas fa-dumbbell"></i>
+                <i style="width: 25px;"><img src="./dist/images/9081473_smoking_no_icon 1.png" alt="nosmoking"></i> 
+                <i class="fas fa-cocktail"></i>
+            </div>
+            <div class="rooms__slider">
+                
+            </div>
+        </div>
     </section>
 
     <section>
