@@ -52,57 +52,60 @@
     </section>
     
     <!-- //SECTION ABOUT Us -->
-    <section class="about">
-        <div class="about__content">
-            <div class="banner__title--ppal">
-                <span class="banner__">ABOUT US</span>
-            </div>
-            <div class="banner__subtitle banner__subtitle--txt">
-                <span>Discover Our Underground.</span>
-            </div>
-            <div>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur ipsam, maiores dolores praesentium harum ullam obcaecati iure eum quaerat voluptates, quo sapiente dignissimos dolore temporibus, repellat expedita ipsa aspernatur fugiat.
-                </p>
-            </div>
-            <button class="banner__button banner__button--ca">BOOK NOW</button>
-
-            <!-- STRONG TEAM -->
-            <div class="strongteam">
-                <div class="strongteam__box1">
+    <section class="about__section">
+        <div class="about">
+            <div class="about__content">
+                <div class="banner__title--ppal">
+                    <span>ABOUT US</span>
                 </div>
-                <div class="strongteam__box2">
-                    <div>
-                    <img src="./dist/images/svgiconperson.png" alt="">
-                    <span>Strong Team</span>   
+                <div class="banner__subtitle banner__subtitle--txt">
+                    <span>Discover Our Underground.</span>
                 </div>
                 <div>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ea hic odit.
-                      </p>  
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur ipsam, maiores dolores praesentium harum ullam obcaecati iure eum quaerat voluptates, quo sapiente dignissimos dolore temporibus, repellat expedita ipsa aspernatur fugiat.
+                    </p>
                 </div>
-                </div>
+                <button class="banner__button banner__button--ca">BOOK NOW</button>
+          
+                
+    
             </div>
-
-            <!-- LUXURY ROOM -->
-            <div class="strongteam">
-                <div class="strongteam__box1">
-                </div>
-                <div class="strongteam__box2">
-                    <div>
-                    <img src="./dist/images/svgiconfecha.png" alt="">
-                    <span>Luxury Room</span>   
-                </div>
-                <div>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ea hic odit.
-                      </p>  
-                </div>
-                </div>
-            </div>
-            
-
         </div>
+ <!-- STRONG TEAM -->
+ <div class="strongteam">
+    <div class="strongteam__box1">
+    </div>
+    <div class="strongteam__box2">
+        <div class="strongteam__box2--imgcontent">
+        <img src="./dist/images/svgiconperson.png" alt="">
+        <span>Strong Team</span>   
+    </div>
+    <div class="strongteam__box2--txtcontent">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ea hic odit.
+          </p>  
+    </div>
+    </div>
+
+
+<!-- LUXURY ROOM -->
+
+    <div class="strongteam__box1">
+    </div>
+    <div class="strongteam__box2--contentblk">
+        <div class="strongteam__box2--imgcontent">
+        <img src="./dist/images/svgiconfecha.png" alt="">
+        <span>Luxury Room</span>   
+    </div>
+    <div class="strongteam__box2--txtcontent">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ea hic odit.
+          </p>  
+    </div>
+    </div>
+</div>
+         
 
     </section>
  <!-- ROOMS -->
