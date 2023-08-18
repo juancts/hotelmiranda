@@ -74,37 +74,39 @@
         </div>
  <!-- STRONG TEAM -->
  <div class="strongteam">
-    <div class="strongteam__box1">
+    <div class="strongteam__content">
+        <div class="strongteam__box1">
+        </div>
+        <div class="strongteam__box2">
+            <div class="strongteam__box2--imgcontent">
+            <img src="./dist/images/svgiconperson.png" alt="">
+            <span>Strong Team</span>   
+        </div>
+        <div class="strongteam__box2--txtcontent">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ea hic odit.
+              </p>  
+        </div>
+        </div>
+    
+    
+    <!-- LUXURY ROOM -->
+    
+        <div class="strongteam__box1">
+        </div>
+        <div class="strongteam__box2--contentblk">
+            <div class="strongteam__box2--imgcontent">
+            <img src="./dist/images/svgiconfecha.png" alt="">
+            <span>Luxury Room</span>   
+        </div>
+        <div class="strongteam__box2--txtcontent">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ea hic odit.
+              </p>  
+        </div>
+        </div>
     </div>
-    <div class="strongteam__box2">
-        <div class="strongteam__box2--imgcontent">
-        <img src="./dist/images/svgiconperson.png" alt="">
-        <span>Strong Team</span>   
     </div>
-    <div class="strongteam__box2--txtcontent">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ea hic odit.
-          </p>  
-    </div>
-    </div>
-
-
-<!-- LUXURY ROOM -->
-
-    <div class="strongteam__box1">
-    </div>
-    <div class="strongteam__box2--contentblk">
-        <div class="strongteam__box2--imgcontent">
-        <img src="./dist/images/svgiconfecha.png" alt="">
-        <span>Luxury Room</span>   
-    </div>
-    <div class="strongteam__box2--txtcontent">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ea hic odit.
-          </p>  
-    </div>
-    </div>
-</div>
 </section>
           <!-- ROOMS -->
     <section class="rooms">
@@ -207,13 +209,14 @@
     </section>
 
     <section class="menu">
+        <div class="menu__icono">
+            <img src="./dist/images/icon4.png" alt="iconomenu">
+    </div>
         <div class="menu__content">
             <div class="menu__title">
                 <h3>MENU</h3>
             </div>
-            <div class="menu__icono">
-                    <img src="./dist/images/icon4.png" alt="iconomenu">
-            </div>
+            
             <div class="menu__submenu">
                     <h1>
                         Our Foods Menu
