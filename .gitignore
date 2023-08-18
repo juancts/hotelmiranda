@@ -9,7 +9,6 @@ Thumbs.db
 # Ignore build artifacts and dependencies
 /node_modules/
 /build/
-/dist/
 /vendor/
 
 # Ignore configuration files with sensitive information
