@@ -1,0 +1,7 @@
+title: Hotel Miranda
+description: pagina hotel
+baseurl: "/hotelmiranda"
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
