@@ -595,6 +595,58 @@ html, * {
   margin-top: 35px;
 }
 
+.footer {
+  width: 100%;
+}
+
+.footer__content {
+  padding-top: 25px;
+  margin: auto;
+  max-width: 320px;
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: row;
+}
+.footer__logo--figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #BEAD8E;
+  width: 60px;
+  height: 60px;
+}
+
+.footer__uppertext {
+  color: #777777;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+.footer__uppertext p {
+  font-size: small;
+  font-family: "Roboto", Arial;
+}
+
+.footer__redes {
+  display: flex;
+  flex-direction: row;
+}
+.footer__redes--link {
+  text-decoration: none;
+  color: #777777;
+  margin-right: 25px;
+}
+
+.footer__redes--back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #bead8e;
+  /* Hace que el fondo sea circular */
+}
+
 @media only screen and (min-width: 1000px) {
   body {
     background-color: lightgreen;
