@@ -293,14 +293,65 @@
 
     <section class="slider">
         <div class="slider__content">
-            <img src="./dist/images/Rectangle46.png" alt="rectangle">
+            <img id="image" src="./dist/images/Rectangle46.png" alt="rectangle">
             <img id="buttons" src="./dist/images/Frame 90.png" alt="points">
         </div>
 
     </section>
 
-    <section>
-  
+    <section class="statistics">
+            <div class="statistics__content">
+                <!-- PROJECTS COMPLETED -->
+                <div class="statistics__content statistic__content">
+                    <img src="./dist/images/icon 5.png" alt="cohete">
+                    <div class="statistics__content--qtty">
+                            <span id="qtty">84k</span>
+                            <span>+</span>
+                    </div>
+                    <div>
+                        <p>Projects are completed</p>
+                    </div>
+
+                </div>
+           <!-- BACKERS AROUND WORLD -->
+                <div class="statistics__content statistic__content">
+                    <img src="./dist/images/icon 6.png" alt="persons">
+                    <div class="statistics__content--qtty">
+                            <span id="qtty">10M</span>
+                            <span>+</span>
+                    </div>
+                    <div>
+                        <p>Active Backers Around World</p>
+                    </div>
+
+                </div>
+
+                <!-- CATEGORIES SERVED -->
+                <div class="statistics__content statistic__content">
+                    <img src="./dist/images/icon 7.png" alt="money">
+                    <div class="statistics__content--qtty">
+                            <span id="qtty">02k</span>
+                            <span>+</span>
+                    </div>
+                    <div>
+                        <p>Categories Served</p>
+                    </div>
+
+                </div>
+                <!-- IDEA RAISED FUNDS -->
+                <div class="statistics__content statistic__content">
+                    <img src="./dist/images/icon 8.png" alt="book">
+                    <div class="statistics__content--qtty">
+                            <span id="qtty">100M</span>
+                            <span>+</span>
+                    </div>
+                    <div>
+                        <p>Idea Raised funds</p>
+                    </div>
+
+                </div>
+
+            </div>
     </section>
 
     <!-- </body>     -->
