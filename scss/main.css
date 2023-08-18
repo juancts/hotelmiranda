@@ -597,12 +597,15 @@ html, * {
 
 .footer {
   width: 100%;
+  align-items: center;
 }
 
 .footer__content {
   padding-top: 25px;
+  padding-bottom: 25px;
   margin: auto;
   max-width: 320px;
+  align-items: center;
 }
 
 .footer__logo {
@@ -613,7 +616,7 @@ html, * {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #BEAD8E;
+  background-color: #bead8e;
   width: 60px;
   height: 60px;
 }
@@ -622,6 +625,7 @@ html, * {
   color: #777777;
   margin-top: 17px;
   margin-bottom: 17px;
+  text-align: justify;
 }
 .footer__uppertext p {
   font-size: small;
@@ -639,12 +643,95 @@ html, * {
 }
 
 .footer__redes--back {
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 5px;
+  background-color: #bead8e;
+}
+
+.footer__redes--twitter {
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5px;
   background-color: #bead8e;
-  /* Hace que el fondo sea circular */
+}
+
+.footer__services {
+  margin-top: 25px;
+}
+.footer__services--title {
+  font-family: "Old Standard TT", Arial;
+}
+.footer__services--list {
+  display: inline-flex;
+}
+.footer__services--list #list2 {
+  margin-left: 35px;
+}
+.footer__services--list ul {
+  list-style: none;
+  padding: 0;
+  font-family: "Roboto", Arial;
+  font-weight: lighter;
+  font-size: small;
+}
+.footer__services--list ul li::before {
+  content: "+ ";
+}
+.footer__services--list li {
+  margin-top: 25px;
+}
+
+.footer__contactus {
+  margin-top: 25px;
+}
+.footer__contactus--title h1 {
+  font-family: "Old Standard TT", Arial;
+  font-weight: lighter;
+}
+.footer__contactus--card {
+  display: inline-flex;
+  align-items: center;
+}
+.footer__contactus--icon {
+  color: #bead8e;
+}
+.footer__contactus--description {
+  margin: 25px 0px 25px 25px;
+}
+.footer__contactus--description h1 {
+  font-family: "Old Standard TT", Arial;
+  font-weight: lighter;
+}
+.footer__contactus--description h3 {
+  font-family: "Roboto", Arial;
+  font-size: small;
+  color: #777777;
+}
+
+.footer__copyright {
+  width: 100%;
+  height: 100px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__copyright--content {
+  max-width: 320px;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+}
+.footer__copyright--content #margin {
+  margin-bottom: 25px;
+}
+.footer__copyright--content h3 {
+  font-size: small;
 }
 
 @media only screen and (min-width: 1000px) {

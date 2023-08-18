@@ -485,12 +485,11 @@
 }
 .menu__icono {
   width: 100%;
-  
+
   margin-top: 10%;
   width: 100%;
   display: inline-flex;
   justify-content: right;
- 
 }
 
 .menu__title {
@@ -525,7 +524,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
   }
 
   &--title {
@@ -541,34 +539,33 @@
   }
 }
 
-.menuslider__buttons{
+.menuslider__buttons {
   display: inline-flex;
   justify-content: flex-end;
 }
 
-.slider{
+.slider {
   display: flex;
   width: 100%;
   justify-content: center;
   margin-top: 25px;
 }
-.slider__content{
+.slider__content {
   max-width: 320px;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  #buttons{
+
+  #buttons {
     margin-top: 10%;
     width: fit-content;
     width: -moz-fit-content;
-    
   }
 }
 
-.statistics{
+.statistics {
   display: flex;
   width: 100%;
   background-color: #222222;
@@ -576,86 +573,176 @@
   margin-top: 25px;
   padding: 25px;
 }
-.statistics__content{
+.statistics__content {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
   max-width: 320px;
-  
-  img{
+
+  img {
     width: fit-content;
     width: -moz-fit-content;
   }
-  p{
+  p {
     color: #777777;
   }
-  &--qtty{
+  &--qtty {
     margin-top: 25px;
     font-family: $third-font;
     color: white;
-    #qtty{
+    #qtty {
       font-size: xxx-large;
       font-weight: bold;
-      
     }
   }
 }
-.statistic__content{
+.statistic__content {
   margin-top: 35px;
 }
 
-.footer{
+.footer {
   width: 100%;
+  align-items: center;
 }
 
-.footer__content{
+.footer__content {
   padding-top: 25px;
+  padding-bottom: 25px;
   margin: auto;
   max-width: 320px;
+  align-items: center;
 }
 
-.footer__logo{
+.footer__logo {
   display: flex;
   flex-direction: row;
 
-  &--figure{
+  &--figure {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #BEAD8E;
+    background-color: #bead8e;
     width: 60px;
     height: 60px;
   }
 }
 
-.footer__uppertext{
+.footer__uppertext {
   color: #777777;
   margin-top: 17px;
   margin-bottom: 17px;
-  p{
+  text-align: justify;
+  p {
     font-size: small;
     font-family: $third-font;
   }
 }
 
-.footer__redes{
+.footer__redes {
   display: flex;
   flex-direction: row;
-  
- &--link{
-  text-decoration: none;  
-  color: #777777;
-  margin-right: 25px;
- 
- }
+
+  &--link {
+    text-decoration: none;
+    color: #777777;
+    margin-right: 25px;
+  }
 }
 
 .footer__redes--back {
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 5px;
+  background-color: #bead8e;
+}
+.footer__redes--twitter {
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5px;
   background-color: #bead8e;
-   /* Hace que el fondo sea circular */
+}
+
+.footer__services {
+  margin-top: 25px;
+  &--title {
+    font-family: $secondary-font;
+  }
+  &--list {
+    display: inline-flex;
+    #list2 {
+      margin-left: 35px;
+    }
+  }
+  &--list ul {
+    list-style: none;
+    padding: 0;
+    font-family: $third-font;
+    font-weight: lighter;
+    font-size: small;
+  }
+  &--list ul li::before {
+    content: "+ ";
+  }
+  &--list li {
+    margin-top: 25px;
+  }
+}
+
+.footer__contactus {
+  margin-top: 25px;
+
+  &--title {
+    h1 {
+      font-family: $secondary-font;
+      font-weight: lighter;
+    }
+  }
+  &--card {
+    display: inline-flex;
+    align-items: center;
+  }
+  &--icon {
+    color: #bead8e;
+  }
+
+  &--description {
+    margin: 25px 0px 25px 25px;
+    h1 {
+      font-family: $secondary-font;
+      font-weight: lighter;
+    }
+    h3 {
+      font-family: $third-font;
+      font-size: small;
+      color: #777777;
+    }
+  }
+}
+
+.footer__copyright {
+  width: 100%;
+  height: 100px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+
+  &--content {
+    max-width: 320px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    #margin {
+      margin-bottom: 25px;
+    }
+    h3 {
+      font-size: small;
+    }
+  }
 }
