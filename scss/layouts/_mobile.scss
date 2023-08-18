@@ -182,10 +182,9 @@
 
 .strongteam {
   width: 100%;
-  
 }
 
-.strongteam__content{
+.strongteam__content {
   position: relative;
   top: -50px;
   left: 0%;
@@ -205,12 +204,10 @@
   }
 }
 
-
 .strongteam__box1 {
   background-color: #9c9b9a;
   height: 300px;
   width: -webkit-fill-available;
-  
 }
 .strongteam__box2 {
   display: flex;
@@ -336,7 +333,6 @@
   background-color: white;
   margin: auto;
   max-width: 320px;
-
 }
 
 .minimal__txt {
@@ -356,61 +352,60 @@
   }
 }
 
-.minimal__price{
+.minimal__price {
   font-family: $primary-font;
-  color: #BEAD8E;
-  &--value{
+  color: #bead8e;
+  &--value {
     font-size: 43px;
   }
 }
 
-.introvideo{
+.introvideo {
   display: flex;
   flex-direction: column;
   width: 100%;
   background-color: #222222;
-
 }
-.introvideo__content{
-    margin: auto;
-    max-width: 320px;
+.introvideo__content {
+  margin: auto;
+  max-width: 320px;
 }
-.introvideo__title{
+.introvideo__title {
   padding-top: 10%;
-  
-  color: #BDAC8D;
-  h3{
+
+  color: #bdac8d;
+  h3 {
     letter-spacing: 1px;
   }
 }
 
-.introvideo__subtitle{
+.introvideo__subtitle {
   padding-top: 10%;
   color: white;
-  h1{
+  h1 {
     font-weight: lighter;
     font-family: $secondary-font;
     font-size: 60px;
   }
 }
 
-.introvideo__paragraph{
+.introvideo__paragraph {
   padding-top: 10%;
   color: #777777;
-  p{
+  p {
     text-align: justify;
     font-family: $third-font;
   }
 }
 
-.introvideo__video{
+.introvideo__video {
   padding-top: 15%;
 }
 
-.facilities{
+.facilities {
   width: 100%;
 }
-.facilities__content{
+.facilities__content {
   max-width: 320px;
   display: flex;
   flex-direction: column;
@@ -420,96 +415,155 @@
   margin: auto;
 }
 
-.facilities__title{
+.facilities__title {
   color: #777777;
   padding-top: 10%;
-  h3{
+  h3 {
     letter-spacing: 1px;
     font-family: $primary-font;
   }
 }
 
-.facilities__subtitle{
+.facilities__subtitle {
   width: 100%;
   padding-top: 10%;
   text-align: left;
-  h1{
+  h1 {
     font-weight: lighter;
     font-size: 50px;
     font-family: $secondary-font;
   }
 }
 
-.facilities__iconos{
+.facilities__iconos {
   padding-top: 10%;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  #img1{
+  #img1 {
     width: 50px;
     height: 50px;
   }
 }
 
-.facilities__subsubtitle{
+.facilities__subsubtitle {
   width: 100%;
   padding-top: 10%;
   text-align: left;
-  h1{
+  h1 {
     font-weight: lighter;
     font-family: $secondary-font;
   }
 }
 
-
-.facilities__paragraph{
+.facilities__paragraph {
   width: 100%;
   padding-top: 10%;
-  color:#777777;
+  color: #777777;
   text-align: left;
-  p{
+  p {
     font-weight: lighter;
     font-family: $third-font;
   }
 }
 
-.facilities__pagination{
+.facilities__pagination {
   padding-top: 7%;
 }
 
-
-.menu{
+.menu {
   width: 100%;
+  align-items: center;
 }
-.menu__content{
+.menu__content {
   display: flex;
   flex-direction: column;
   max-width: 320px;
   margin: auto;
 }
-.menu__icono{
+.menu__icono {
+  width: 100%;
+  
   margin-top: 10%;
   width: 100%;
   display: inline-flex;
   justify-content: right;
-
+ 
 }
 
-.menu__title{
+.menu__title {
   margin-top: 10%;
-  h3{
+  h3 {
     letter-spacing: 1px;
     color: #777777;
   }
 }
-.menu__submenu{
+.menu__submenu {
   margin-top: 10%;
-  h1{
+  h1 {
     font-family: $secondary-font;
     font-size: 60px;
     font-weight: lighter;
   }
 }
 
+.menuslider {
+  margin-top: 25px;
+}
+
+.menuslider__data {
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+  &--photo {
+    margin-right: 25px;
+  }
+
+  &--content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  &--title {
+    h1 {
+      font-family: $secondary-font;
+    }
+  }
+  &--description {
+    p {
+      font-size: small;
+      font-family: $third-font;
+    }
+  }
+}
+
+.menuslider__buttons{
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.slider{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 25px;
+}
+.slider__content{
+  max-width: 320px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  #buttons{
+    margin-top: 10%;
+    width: fit-content;
+    width: -moz-fit-content;
+    
+  }
+}

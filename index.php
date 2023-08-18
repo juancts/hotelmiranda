@@ -2,24 +2,28 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;500;600&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;500;600&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;500;600&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="./scss/main.css" />
     <title>Hotel Miranda</title>
 </head>
+
 <body>
 
-<?php
+    <?php
     include 'dist/php/templates/navbar.php'
 ?>
 
-<!-- <body> -->
+    <!-- <body> -->
     <!-- //BANNER TOP -->
     <section class="banner">
         <div class="banner__content">
@@ -38,8 +42,8 @@
             </button>
         </div>
     </section>
-    
-    
+
+
     <!-- //SECTION DATES OF ARRIBAL DEPARTURE -->
     <section class="dates">
         <div class="dates__content">
@@ -50,7 +54,7 @@
             <button class="banner__button banner__button--ca">CHECK AVAILABILITY</button>
         </div>
     </section>
-    
+
     <!-- //SECTION ABOUT Us -->
     <section class="about__section">
         <div class="about">
@@ -63,52 +67,54 @@
                 </div>
                 <div>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur ipsam, maiores dolores praesentium harum ullam obcaecati iure eum quaerat voluptates, quo sapiente dignissimos dolore temporibus, repellat expedita ipsa aspernatur fugiat.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur ipsam, maiores dolores
+                        praesentium harum ullam obcaecati iure eum quaerat voluptates, quo sapiente dignissimos dolore
+                        temporibus, repellat expedita ipsa aspernatur fugiat.
                     </p>
                 </div>
                 <button class="banner__button banner__button--ca">BOOK NOW</button>
-          
-                
-    
+
+
+
             </div>
         </div>
- <!-- STRONG TEAM -->
- <div class="strongteam">
-    <div class="strongteam__content">
-        <div class="strongteam__box1">
+        <!-- STRONG TEAM -->
+        <div class="strongteam">
+            <div class="strongteam__content">
+                <div class="strongteam__box1">
+                </div>
+                <div class="strongteam__box2">
+                    <div class="strongteam__box2--imgcontent">
+                        <img src="./dist/images/svgiconperson.png" alt="">
+                        <span>Strong Team</span>
+                    </div>
+                    <div class="strongteam__box2--txtcontent">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ea hic odit.
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- LUXURY ROOM -->
+
+                <div class="strongteam__box1">
+                </div>
+                <div class="strongteam__box2--contentblk">
+                    <div class="strongteam__box2--imgcontent">
+                        <img src="./dist/images/svgiconfecha.png" alt="">
+                        <span>Luxury Room</span>
+                    </div>
+                    <div class="strongteam__box2--txtcontent">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ea hic odit.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="strongteam__box2">
-            <div class="strongteam__box2--imgcontent">
-            <img src="./dist/images/svgiconperson.png" alt="">
-            <span>Strong Team</span>   
-        </div>
-        <div class="strongteam__box2--txtcontent">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ea hic odit.
-              </p>  
-        </div>
-        </div>
-    
-    
-    <!-- LUXURY ROOM -->
-    
-        <div class="strongteam__box1">
-        </div>
-        <div class="strongteam__box2--contentblk">
-            <div class="strongteam__box2--imgcontent">
-            <img src="./dist/images/svgiconfecha.png" alt="">
-            <span>Luxury Room</span>   
-        </div>
-        <div class="strongteam__box2--txtcontent">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ea hic odit.
-              </p>  
-        </div>
-        </div>
-    </div>
-    </div>
-</section>
-          <!-- ROOMS -->
+    </section>
+    <!-- ROOMS -->
     <section class="rooms">
         <div class="rooms__content">
             <div class="rooms__title">
@@ -122,12 +128,12 @@
                 </h1>
             </div>
             <div class="rooms__icons">
-                <i class="fas fa-bed"></i> 
-                <i class="fas fa-wifi"></i> 
-                <i class="fas fa-car"></i> 
-                <i class="fas fa-snowflake"></i> 
+                <i class="fas fa-bed"></i>
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-car"></i>
+                <i class="fas fa-snowflake"></i>
                 <i class="fas fa-dumbbell"></i>
-                <i style="width: 25px;"><img src="./dist/images/9081473_smoking_no_icon 1.png" alt="nosmoking"></i> 
+                <i style="width: 25px;"><img src="./dist/images/9081473_smoking_no_icon 1.png" alt="nosmoking"></i>
                 <i class="fas fa-cocktail"></i>
             </div>
             <div class="rooms__slider">
@@ -136,155 +142,175 @@
             </div>
         </div>
 
-            <div class="minimal">
-                
-                <div class="minimal__content">
-                    <div class="minimal__txt">
-                        <h1>
-                            Minimal Duplex Room
-                        </h1>
-                    </div> 
-                     <div class="minimal__txt">
-                         <h3>
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque veritatis non dolor adipisci sequi.
-                         </h3>
-                     </div>
-                     <div class="minimal__price">
-                         <span class="minimal__price--value">$345</span>
-                         <span class="minimal__price--night">/Night</span>
-                     </div>
-                 </div>
+        <div class="minimal">
 
+            <div class="minimal__content">
+                <div class="minimal__txt">
+                    <h1>
+                        Minimal Duplex Room
+                    </h1>
                 </div>
-    </section>
-    
-    <section class="introvideo">
-    <div class="introvideo__content">
-        <div class="introvideo__title">
-            <h3>INTRO VIDEO</h3>
-        </div>
-        <div class="introvideo__subtitle">
-            <h1>Meet With Our Luxury Place.</h1>
-        </div>
-        <div class="introvideo__paragraph">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex hic quis officiis soluta cupiditate nihil recusandae voluptate dolor vitae, fugit aliquam quos repudiandae. Accusantium incidunt inventore quaerat qui iusto!</p>
-        </div>
-        <div class="introvideo__video">
-            <img src="./dist/images/Rectanglevideo.png"></img>
-        </div>
-        <div class="introvideo__button">
-            <button class="banner__button banner__button--ca">BOOK NOW</button>
-        </div>
+                <div class="minimal__txt">
+                    <h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque veritatis non dolor adipisci
+                        sequi.
+                    </h3>
+                </div>
+                <div class="minimal__price">
+                    <span class="minimal__price--value">$345</span>
+                    <span class="minimal__price--night">/Night</span>
+                </div>
+            </div>
 
-    </div>
+        </div>
+    </section>
+
+    <section class="introvideo">
+        <div class="introvideo__content">
+            <div class="introvideo__title">
+                <h3>INTRO VIDEO</h3>
+            </div>
+            <div class="introvideo__subtitle">
+                <h1>Meet With Our Luxury Place.</h1>
+            </div>
+            <div class="introvideo__paragraph">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex hic quis officiis soluta cupiditate
+                    nihil recusandae voluptate dolor vitae, fugit aliquam quos repudiandae. Accusantium incidunt
+                    inventore quaerat qui iusto!</p>
+            </div>
+            <div class="introvideo__video">
+                <img src="./dist/images/Rectanglevideo.png"></img>
+            </div>
+            <div class="introvideo__button">
+                <button class="banner__button banner__button--ca">BOOK NOW</button>
+            </div>
+
+        </div>
 
     </section>
 
     <section class="facilities">
-       <div class="facilities__content">
-           <div class="facilities__title">
-                   <h3>FACILITIES</h3>
-           </div>
-           <div class="facilities__subtitle">
-            <h1>Core Features</h1>
-           </div>
-           <div class="facilities__iconos">
-            <img id="img1" src="./dist/images/icon1.png" alt="iconodedo">
-            <img id="img2" src="./dist/images/01.png" alt="icononumero">
-           </div>
-           <div class="facilities__subsubtitle">
+        <div class="facilities__content">
+            <div class="facilities__title">
+                <h3>FACILITIES</h3>
+            </div>
+            <div class="facilities__subtitle">
+                <h1>Core Features</h1>
+            </div>
+            <div class="facilities__iconos">
+                <img id="img1" src="./dist/images/icon1.png" alt="iconodedo">
+                <img id="img2" src="./dist/images/01.png" alt="icononumero">
+            </div>
+            <div class="facilities__subsubtitle">
                 <h1>
                     Have High Rating
                 </h1>
-           </div>
-           <div class="facilities__paragraph">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptates suscipit excepturi incidunt voluptas earum corporis dolor iure quis similique sit laudantium, rerum reiciendis dolore, quibusdam, rem esse sapiente accusamus!</p>
-           </div>
-           <div class="facilities__pagination">
-            <img src="./dist/images/Frame90.png" alt="">
-           </div>
-       </div> 
+            </div>
+            <div class="facilities__paragraph">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptates suscipit excepturi incidunt
+                    voluptas earum corporis dolor iure quis similique sit laudantium, rerum reiciendis dolore,
+                    quibusdam, rem esse sapiente accusamus!</p>
+            </div>
+            <div class="facilities__pagination">
+                <img src="./dist/images/Frame90.png" alt="">
+            </div>
+        </div>
 
-        
+
     </section>
 
     <section class="menu">
         <div class="menu__icono">
             <img src="./dist/images/icon4.png" alt="iconomenu">
-    </div>
+        </div>
         <div class="menu__content">
             <div class="menu__title">
                 <h3>MENU</h3>
             </div>
-            
+    
             <div class="menu__submenu">
-                    <h1>
-                        Our Foods Menu
-                    </h1>
+                <h1>
+                    Our Foods Menu
+                </h1>
             </div>
             <div class="menuslider">
-<!-- //DATA SLIDER 1 -->
-               <div class="menuslider__data">
-                   <div class="menuslider__data--photo">
-                       <img src="" alt="">
-                   </div>
-                    <div class="menuslider__data--title">
-                        <div class="title">
-                            <h1>Eggs & Bacon</h1>
-                        </div>
-                        <div class="menuslider__data--description">
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                            </p>
-                        </div>    
+                <!-- DATA SLIDER 1 -->
+                <div class="menuslider__data">
+                    <div class="menuslider__data--photo">
+                        <img src="./dist/images/Rectangle38.png" alt="img">
                     </div>
-               </div> 
-<!-- //DATA SLIDER 2 -->    
+                    <div class="menuslider__data--content">
+                    <div class="menuslider__data--title">
+                        <h1>Eggs & Bacon</h1>
+                    </div>
+                    <div class="menuslider__data--description">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- DATA SLIDER 2 -->
             <div class="menuslider__data">
                 <div class="menuslider__data--photo">
-                    <img src="" alt="">
+                    <img src="./dist/images/Rectangle38.png" alt="photo">
                 </div>
-                 <div class="menuslider__data--title">
-                     <div class="title">
-                         <h1>Eggs & Bacon</h1>
-                     </div>
-                     <div class="menuslider__data--description">
-                         <p>
-                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                         </p>
-                     </div>    
-                 </div>
-            </div>  
-<!-- //DATA SLIDER 3 -->    
-            <div class="menuslider__data">
-                <div class="menuslider__data--photo">
-                    <img src="" alt="">
-                </div>
-                 <div class="menuslider__data--title">
-                     <div class="title">
-                         <h1>Eggs & Bacon</h1>
-                     </div>
-                     <div class="menuslider__data--description">
-                         <p>
-                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                         </p>
-                     </div>    
-                 </div>
-            </div>
-            </div>
+                <div class="menuslider__data--content">
+                    <div class="menuslider__data--title">
+                        <h1>Eggs & Bacon</h1>
+                    </div>
+                    <div class="menuslider__data--description">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
 
+                </div>
+            </div>
+            <!-- DATA SLIDER 3 -->
+            <div class="menuslider__data">
+                <div class="menuslider__data--photo">
+                    <img src="./dist/images/Rectangle38.png" alt="photo">
+                </div>
+                <div class="menuslider__data--content">
+                <div class="menuslider__data--title">
+                    <h1>Eggs & Bacon</h1>
+                </div>
+                <div class="menuslider__data--description">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="menuslider__buttons">
+                <img src="./dist/images/Frame 59.png" alt="button">
+                <img src="./dist/images/Frame 60.png" alt="button">
+            </div>
+        </div>
+    </section>
+
+    <section class="slider">
+        <div class="slider__content">
+            <img src="./dist/images/Rectangle46.png" alt="rectangle">
+            <img id="buttons" src="./dist/images/Frame 90.png" alt="points">
         </div>
 
     </section>
-    
-<!-- </body>     -->
-<!-- //SECTION  -->
+
+    <section>
+  
+    </section>
+
+    <!-- </body>     -->
+    <!-- //SECTION  -->
 
 
-    
-<?php
+
+    <?php
     include 'dist/php/templates/footer.php'
 ?>
-<script src="../../js/navbar.js></script>
+    <script src="../../js/navbar.js></script>
 </body>
 </html>

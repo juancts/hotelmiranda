@@ -349,7 +349,7 @@ html, * {
 
 .minimal__price {
   font-family: "Archivo", Arial;
-  color: #BEAD8E;
+  color: #bead8e;
 }
 .minimal__price--value {
   font-size: 43px;
@@ -369,7 +369,7 @@ html, * {
 
 .introvideo__title {
   padding-top: 10%;
-  color: #BDAC8D;
+  color: #bdac8d;
 }
 .introvideo__title h3 {
   letter-spacing: 1px;
@@ -472,6 +472,7 @@ html, * {
 
 .menu {
   width: 100%;
+  align-items: center;
 }
 
 .menu__content {
@@ -482,6 +483,7 @@ html, * {
 }
 
 .menu__icono {
+  width: 100%;
   margin-top: 10%;
   width: 100%;
   display: inline-flex;
@@ -503,6 +505,57 @@ html, * {
   font-family: "Old Standard TT", Arial;
   font-size: 60px;
   font-weight: lighter;
+}
+
+.menuslider {
+  margin-top: 25px;
+}
+
+.menuslider__data {
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+.menuslider__data--photo {
+  margin-right: 25px;
+}
+.menuslider__data--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.menuslider__data--title h1 {
+  font-family: "Old Standard TT", Arial;
+}
+.menuslider__data--description p {
+  font-size: small;
+  font-family: "Roboto", Arial;
+}
+
+.menuslider__buttons {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.slider {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.slider__content {
+  max-width: 320px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.slider__content #buttons {
+  margin-top: 10%;
+  width: fit-content;
+  width: -moz-fit-content;
 }
 
 @media only screen and (min-width: 1000px) {
