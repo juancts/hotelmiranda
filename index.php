@@ -13,7 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;500;600&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <link rel="stylesheet" href="./scss/main.css" />
+    <link rel="stylesheet" href="./scss/style.css" />
     <title>Hotel Miranda</title>
 </head>
 
