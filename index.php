@@ -13,14 +13,14 @@
         href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;500;600&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <link rel="stylesheet" href="./scss/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Hotel Miranda</title>
 </head>
 
 <body>
 
     <?php
-    include 'dist/php/templates/navbar.php'
+    include 'php/templates/navbar.php'
 ?>
 
     <!-- <body> -->
@@ -85,7 +85,7 @@
                 </div>
                 <div class="strongteam__box2">
                     <div class="strongteam__box2--imgcontent">
-                        <img src="./dist/assets/svgiconperson.png" alt="">
+                        <img src="/assets/images/svgiconperson.png" alt="">
                         <span>Strong Team</span>
                     </div>
                     <div class="strongteam__box2--txtcontent">
@@ -102,7 +102,7 @@
                 </div>
                 <div class="strongteam__box2--contentblk">
                     <div class="strongteam__box2--imgcontent">
-                        <img src="./dist/assets/svgiconfecha.png" alt="">
+                        <img src="assets/images/svgiconfecha.png" alt="">
                         <span>Luxury Room</span>
                     </div>
                     <div class="strongteam__box2--txtcontent">
@@ -133,12 +133,12 @@
                 <i class="fas fa-car"></i>
                 <i class="fas fa-snowflake"></i>
                 <i class="fas fa-dumbbell"></i>
-                <i style="width: 25px;"><img src="./dist/assets/9081473_smoking_no_icon 1.png" alt="nosmoking"></i>
+                <i style="width: 25px;"><img src="/assets/images/9081473_smoking_no_icon 1.png" alt="nosmoking"></i>
                 <i class="fas fa-cocktail"></i>
             </div>
             <div class="rooms__slider">
-                <img class="rooms__slider--left" src="./dist/assets/Frame 59.png" alt="siguiente">
-                <img class="rooms__slider--right" src="./dist/assets/Frame 60.png" alt="atras">
+                <img class="rooms__slider--left" src="/assets/images/Frame 59.png" alt="siguiente">
+                <img class="rooms__slider--right" src="/assets/images/Frame 60.png" alt="atras">
             </div>
         </div>
 
@@ -179,7 +179,7 @@
                     inventore quaerat qui iusto!</p>
             </div>
             <div class="introvideo__video">
-                <img src="./dist/assets/Rectanglevideo.png"></img>
+                <img src="/assets/images/Rectanglevideo.png"></img>
             </div>
             <div class="introvideo__button">
                 <button class="banner__button banner__button--ca">BOOK NOW</button>
@@ -198,8 +198,8 @@
                 <h1>Core Features</h1>
             </div>
             <div class="facilities__iconos">
-                <img id="img1" src="./dist/assets/icon1.png" alt="iconodedo">
-                <img id="img2" src="./dist/assets/01.png" alt="icononumero">
+                <img id="img1" src="/assets/images/icon1.png" alt="iconodedo">
+                <img id="img2" src="/assets/images/01.png" alt="icononumero">
             </div>
             <div class="facilities__subsubtitle">
                 <h1>
@@ -212,7 +212,7 @@
                     quibusdam, rem esse sapiente accusamus!</p>
             </div>
             <div class="facilities__pagination">
-                <img src="./dist/assets/Frame90.png" alt="">
+                <img src="/assets/images/Frame90.png" alt="">
             </div>
         </div>
 
@@ -221,7 +221,7 @@
 
     <section class="menu">
         <div class="menu__icono">
-            <img src="./dist/assets/icon4.png" alt="iconomenu">
+            <img src="/assets/images/icon4.png" alt="iconomenu">
         </div>
         <div class="menu__content">
             <div class="menu__title">
@@ -237,7 +237,7 @@
                 <!-- DATA SLIDER 1 -->
                 <div class="menuslider__data">
                     <div class="menuslider__data--photo">
-                        <img src="./dist/assets/Rectangle38.png" alt="img">
+                        <img src="/assets/images/Rectangle38.png" alt="img">
                     </div>
                     <div class="menuslider__data--content">
                     <div class="menuslider__data--title">
@@ -254,7 +254,7 @@
             <!-- DATA SLIDER 2 -->
             <div class="menuslider__data">
                 <div class="menuslider__data--photo">
-                    <img src="./dist/assets/Rectangle38.png" alt="photo">
+                    <img src="/assets/images/Rectangle38.png" alt="photo">
                 </div>
                 <div class="menuslider__data--content">
                     <div class="menuslider__data--title">
@@ -271,7 +271,7 @@
             <!-- DATA SLIDER 3 -->
             <div class="menuslider__data">
                 <div class="menuslider__data--photo">
-                    <img src="./dist/assets/Rectangle38.png" alt="photo">
+                    <img src="/assets/images/Rectangle38.png" alt="photo">
                 </div>
                 <div class="menuslider__data--content">
                 <div class="menuslider__data--title">
@@ -285,16 +285,16 @@
                 </div>
             </div>
             <div class="menuslider__buttons">
-                <img src="./dist/assets/Frame 59.png" alt="button">
-                <img src="./dist/assets/Frame 60.png" alt="button">
+                <img src="/assets/images/Frame 59.png" alt="button">
+                <img src="/assets/images/Frame 60.png" alt="button">
             </div>
         </div>
     </section>
 
     <section class="slider">
         <div class="slider__content">
-            <img id="image" src="./dist/assets/Rectangle46.png" alt="rectangle">
-            <img id="buttons" src="./dist/assets/Frame 90.png" alt="points">
+            <img id="image" src="/assets/images/Rectangle46.png" alt="rectangle">
+            <img id="buttons" src="/assets/images/Frame 90.png" alt="points">
         </div>
 
     </section>
@@ -303,7 +303,7 @@
             <div class="statistics__content">
                 <!-- PROJECTS COMPLETED -->
                 <div class="statistics__content statistic__content">
-                    <img src="./dist/assets/icon 5.png" alt="cohete">
+                    <img src="/assets/images/icon 5.png" alt="cohete">
                     <div class="statistics__content--qtty">
                             <span id="qtty">84k</span>
                             <span>+</span>
@@ -315,7 +315,7 @@
                 </div>
            <!-- BACKERS AROUND WORLD -->
                 <div class="statistics__content statistic__content">
-                    <img src="./dist/assets/icon 6.png" alt="persons">
+                    <img src="/assets/images/icon 6.png" alt="persons">
                     <div class="statistics__content--qtty">
                             <span id="qtty">10M</span>
                             <span>+</span>
@@ -328,7 +328,7 @@
 
                 <!-- CATEGORIES SERVED -->
                 <div class="statistics__content statistic__content">
-                    <img src="./dist/assets/icon 7.png" alt="money">
+                    <img src="/assets/images/icon 7.png" alt="money">
                     <div class="statistics__content--qtty">
                             <span id="qtty">02k</span>
                             <span>+</span>
@@ -340,7 +340,7 @@
                 </div>
                 <!-- IDEA RAISED FUNDS -->
                 <div class="statistics__content statistic__content">
-                    <img src="./dist/assets/icon 8.png" alt="book">
+                    <img src="/assets/images/icon 8.png" alt="book">
                     <div class="statistics__content--qtty">
                             <span id="qtty">100M</span>
                             <span>+</span>
@@ -360,7 +360,7 @@
 
 
     <?php
-    include 'dist/php/templates/footer.php'
+    include 'php/templates/footer.php'
 ?>
     <script src="../../js/navbar.js"></script>
 </body>
