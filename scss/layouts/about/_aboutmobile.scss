@@ -1,6 +1,16 @@
 @media screen and (max-width: 1000px) {
   body {
     font-family: $primary-font;
+
+    h2 {
+      font-family: $primary-font;
+    }
+    h1 {
+      font-family: $secondary-font;
+    }
+    h3 {
+      font-family: $third-font;
+    }
   }
 
   .header {
@@ -56,66 +66,106 @@
     }
   }
 
-  .video{
+  .video {
     width: 100%;
   }
-  .video__content{
+  .video__content {
     padding-top: 35px;
     display: flex;
     flex-direction: column;
     max-width: 320px;
     margin: auto;
   }
-  .video__description{
+  .video__description {
     margin-top: 25px;
-    text-align:center;
-    
+    text-align: center;
   }
- 
-   .services{
+
+  .services {
     width: 100%;
-   }
-   .services__content{
+  }
+  .services__content {
     max-width: 320px;
     margin: auto;
     margin-top: 55px;
-   }
+  }
 
-   .restaurant{
+  .restaurant {
     width: 100%;
-   }
-   .restaurant__content{
+  }
+  .restaurant__content {
     max-width: 320px;
     margin: auto;
-   }
+  }
 
-   .restaurant__title{
+  .restaurant__title {
     margin: 25px 0px;
     color: #777777;
-    h2{
+    h2 {
       letter-spacing: 1px;
       font-size: small;
       font-family: $primary-font;
     }
-   }
-   .restaurant__subtitle{
+  }
+  .restaurant__subtitle {
     margin: 25px 0px;
     color: #222222;
-    h1{
+    h1 {
       font-size: 35px;
       font-family: $secondary-font;
     }
-   }
-   
-   .restaurant__description{
+  }
+
+  .restaurant__description {
     margin: 25px 0px;
     color: #777777;
-    h3{
-      
+    h3 {
       font-size: small;
     }
-   }
-    .banner__button{
-      border:none;
+  }
+  .banner__button {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .facilities {
+    background-color: #222222;
+    width: 100%;
+    height: 614px;
+  }
+  .facilities__content {
+    max-width: 320px;
+    margin: auto;
+  }
+  .facilities__subtitle {
+    color: #ffffff;
+  }
+
+  .facilities__description {
+    background-color: #292929;
+    width: 100%;
+    height: 370px;
+    &-image1 {
+      padding: 15px;
+      width: 100px;
+      height: 100px;
+      margin-bottom: 25px;
     }
+    &-image2{
+      padding: 15px;
+      width: 173px;
+      height: 120px;
+    }
+  }
+  .facilities__description-images {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .facilities__description-image1content {
+    display: flex;
+    align-items: flex-end;
+    min-height: 100%;
+  }
 }

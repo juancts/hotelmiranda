@@ -757,6 +757,15 @@ html, * {
   body {
     font-family: "Archivo", Arial;
   }
+  body h2 {
+    font-family: "Archivo", Arial;
+  }
+  body h1 {
+    font-family: "Old Standard TT", Arial;
+  }
+  body h3 {
+    font-family: "Roboto", Arial;
+  }
   .header {
     width: 100%;
     background-color: #333333;
@@ -860,6 +869,46 @@ html, * {
   }
   .banner__button {
     border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .facilities {
+    background-color: #222222;
+    width: 100%;
+    height: 614px;
+  }
+  .facilities__content {
+    max-width: 320px;
+    margin: auto;
+  }
+  .facilities__subtitle {
+    color: #ffffff;
+  }
+  .facilities__description {
+    background-color: #292929;
+    width: 100%;
+    height: 370px;
+  }
+  .facilities__description-image1 {
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 25px;
+  }
+  .facilities__description-image2 {
+    padding: 15px;
+    width: 173px;
+    height: 120px;
+  }
+  .facilities__description-images {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .facilities__description-image1content {
+    display: flex;
+    align-items: flex-end;
+    min-height: 100%;
   }
 }
 
