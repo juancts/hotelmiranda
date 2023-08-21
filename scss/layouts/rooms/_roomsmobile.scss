@@ -1,0 +1,39 @@
+@media screen and (max-width: 1000px) {
+    
+
+
+.room{
+  width: 100%;
+}
+
+.room__content{
+  max-width: 320px;
+  margin: auto;
+}
+.room__content__card{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ 
+   &-image{
+    margin-top: 25px;
+   }
+
+   &-value1{
+     color: #BEAD8E;
+   }
+   &-title{
+    margin-top: 25px;
+   }
+   &-subtitle{
+    margin: 25px 0px;
+    text-align: center;
+    color: #777777;
+    font-size: small;
+    font-weight: lighter;
+   }
+}
+
+
+    
+}

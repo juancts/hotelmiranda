@@ -14,6 +14,68 @@ html, * {
   body {
     font-family: "Archivo", Arial;
   }
+  body h2 {
+    font-family: "Archivo", Arial;
+  }
+  body h1 {
+    font-family: "Old Standard TT", Arial;
+  }
+  body h3 {
+    font-family: "Roboto", Arial;
+  }
+  .header {
+    width: 100%;
+    background-color: #333333;
+    height: 300px;
+  }
+  .header__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 320px;
+    height: 100%;
+    margin: auto;
+  }
+  .header__title {
+    color: white;
+    margin-bottom: 25px;
+  }
+  .header__title h2 {
+    letter-spacing: 1px;
+    font-size: small;
+    font-family: "Archivo", Arial;
+  }
+  .header__subtitle {
+    margin-bottom: 55px;
+    color: white;
+  }
+  .header__subtitle h1 {
+    font-size: 56px;
+    font-weight: lighter;
+    font-family: "Old Standard TT", Arial;
+  }
+  .header__titledescription {
+    display: flex;
+    justify-content: right;
+    font-size: smaller;
+    font-family: "Roboto", Arial;
+    color: black;
+  }
+  .header__titledescription-box {
+    display: flex;
+    padding: 0px 15px;
+    height: 35px;
+    background-color: white;
+    align-items: center;
+  }
+  .header__titledescription-color {
+    color: #bead8e;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body {
+    font-family: "Archivo", Arial;
+  }
   .navbar {
     display: flex;
     justify-content: center;
@@ -754,66 +816,6 @@ html, * {
 }
 
 @media screen and (max-width: 1000px) {
-  body {
-    font-family: "Archivo", Arial;
-  }
-  body h2 {
-    font-family: "Archivo", Arial;
-  }
-  body h1 {
-    font-family: "Old Standard TT", Arial;
-  }
-  body h3 {
-    font-family: "Roboto", Arial;
-  }
-  .header {
-    width: 100%;
-    background-color: #333333;
-    height: 265px;
-  }
-  .header__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    max-width: 320px;
-    height: 100%;
-    margin: auto;
-  }
-  .header__title {
-    color: white;
-    margin-bottom: 25px;
-  }
-  .header__title h2 {
-    letter-spacing: 1px;
-    font-size: small;
-    font-family: "Archivo", Arial;
-  }
-  .header__subtitle {
-    margin-bottom: 55px;
-    color: white;
-  }
-  .header__subtitle h1 {
-    font-size: 56px;
-    font-weight: lighter;
-    font-family: "Old Standard TT", Arial;
-  }
-  .header__titledescription {
-    display: flex;
-    justify-content: right;
-    font-size: smaller;
-    font-family: "Roboto", Arial;
-    color: black;
-  }
-  .header__titledescription-box {
-    display: flex;
-    padding: 0px 15px;
-    height: 35px;
-    background-color: white;
-    align-items: center;
-  }
-  .header__titledescription-color {
-    color: #bead8e;
-  }
   .video {
     width: 100%;
   }
@@ -976,6 +978,36 @@ html, * {
   }
   .counter__content-imagebottom img {
     margin: 15px 0px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .room {
+    width: 100%;
+  }
+  .room__content {
+    max-width: 320px;
+    margin: auto;
+  }
+  .room__content__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .room__content__card-image {
+    margin-top: 25px;
+  }
+  .room__content__card-value1 {
+    color: #BEAD8E;
+  }
+  .room__content__card-title {
+    margin-top: 25px;
+  }
+  .room__content__card-subtitle {
+    margin: 25px 0px;
+    text-align: center;
+    color: #777777;
+    font-size: small;
+    font-weight: lighter;
   }
 }
 
