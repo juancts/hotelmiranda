@@ -1,16 +1,20 @@
 // _mobile.scss
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   body {
     font-family: $primary-font;
   }
 
   .navbar {
+    display: flex;
+    justify-content: center;
     width: 100%;
     margin: auto;
     max-width: 320px;
+    align-items: center;
   }
   .navbar__content {
+    max-width: 320px;
     display: flex;
     flex-direction: row;
     justify-content: center;

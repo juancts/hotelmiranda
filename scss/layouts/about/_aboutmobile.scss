@@ -1,0 +1,121 @@
+@media screen and (max-width: 1000px) {
+  body {
+    font-family: $primary-font;
+  }
+
+  .header {
+    width: 100%;
+    background-color: #333333;
+    height: 265px;
+  }
+
+  .header__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 320px;
+    height: 100%;
+    margin: auto;
+  }
+
+  .header__title {
+    color: white;
+    margin-bottom: 25px;
+    h2 {
+      letter-spacing: 1px;
+      font-size: small;
+      font-family: $primary-font;
+    }
+  }
+
+  .header__subtitle {
+    margin-bottom: 55px;
+    color: white;
+    h1 {
+      font-size: 56px;
+      font-weight: lighter;
+      font-family: $secondary-font;
+    }
+  }
+
+  .header__titledescription {
+    display: flex;
+    justify-content: right;
+    font-size: smaller;
+    font-family: $third-font;
+    color: black;
+    &-box {
+      display: flex;
+      padding: 0px 15px;
+      height: 35px;
+      background-color: white;
+      align-items: center;
+    }
+    &-color {
+      color: #bead8e;
+    }
+  }
+
+  .video{
+    width: 100%;
+  }
+  .video__content{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: auto;
+  }
+  .video__description{
+    margin-top: 25px;
+    text-align:center;
+    
+  }
+ 
+   .services{
+    width: 100%;
+   }
+   .services__content{
+    max-width: 320px;
+    margin: auto;
+    margin-top: 55px;
+   }
+
+   .restaurant{
+    width: 100%;
+   }
+   .restaurant__content{
+    max-width: 320px;
+    margin: auto;
+   }
+
+   .restaurant__title{
+    margin: 25px 0px;
+    color: #777777;
+    h2{
+      letter-spacing: 1px;
+      font-size: small;
+      font-family: $primary-font;
+    }
+   }
+   .restaurant__subtitle{
+    margin: 25px 0px;
+    color: #222222;
+    h1{
+      font-size: 35px;
+      font-family: $secondary-font;
+    }
+   }
+   
+   .restaurant__description{
+    margin: 25px 0px;
+    color: #777777;
+    h3{
+      
+      font-size: small;
+    }
+   }
+    .banner__button{
+      border:none;
+    }
+}
