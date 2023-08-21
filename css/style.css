@@ -992,6 +992,7 @@ html, * {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
   }
   .room__content__card-image {
     margin-top: 25px;
@@ -1008,6 +1009,16 @@ html, * {
     color: #777777;
     font-size: small;
     font-weight: lighter;
+  }
+  .room__content__card-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    bottom: 137px;
   }
 }
 
