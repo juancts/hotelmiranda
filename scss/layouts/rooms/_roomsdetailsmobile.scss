@@ -1,0 +1,101 @@
+@media screen and (max-width: 1000px) {
+  .roomdetails {
+    width: 100%;
+  }
+
+  .roomdetails__content {
+    max-width: 320px;
+    margin: auto;
+    img {
+      margin-top: 25px;
+    }
+  }
+
+  .roomdetails__title {
+    color: #777777;
+    margin-top: 25px;
+    h2 {
+      font-size: medium;
+      letter-spacing: 1px;
+    }
+  }
+
+  .roomdetails__subtitle {
+    margin-top: 25px;
+    h1 {
+      font-size: 35px;
+      font-weight: lighter;
+    }
+  }
+
+  .roomdetails__price {
+    margin-top: 25px;
+  }
+
+  .availability {
+    width: 100%;
+  }
+
+  .availability__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 320px;
+    margin: auto;
+    h3 {
+      margin-top: 25px;
+    }
+  }
+
+  .availability__content-checkin {
+    h3 {
+      font-size: small;
+    }
+
+    input {
+      width: 220px;
+      background-color: #f8f8f8;
+      border: none;
+      height: 45px;
+    }
+  }
+
+  .availability__content-description p {
+    margin-top: 25px;
+    font-size: small;
+    font-family: $third-font;
+  }
+
+  .amenities {
+    width: 100%;
+  }
+
+  .amenities__content {
+    max-width: 320px;
+    margin: auto;
+    &-title{
+        margin-top: 25px;
+    }
+  }
+  .amenities__content-services {
+    display: inline-flex;
+    border-top: solid 1px #f5eee0;
+    #list2 {
+      margin-left: 35px;
+    }
+    i{
+        color: #BDAC8D;
+    }
+    li{
+        margin-top: 25px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      font-family: $third-font;
+      font-weight: lighter;
+      font-size: small;
+    }
+  }
+}
