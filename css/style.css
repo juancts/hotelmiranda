@@ -892,12 +892,27 @@ html, * {
     padding: 15px;
     width: 100px;
     height: 100px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
   }
   .facilities__description-image2 {
     padding: 15px;
     width: 173px;
     height: 120px;
+  }
+  .facilities__description-title1 {
+    margin: 25px 0px;
+  }
+  .facilities__description-title1 h1 {
+    font-weight: lighter;
+    color: white;
+  }
+  .facilities__description-txt {
+    text-align: left;
+  }
+  .facilities__description-txt h3 {
+    color: white;
+    font-size: small;
+    font-weight: lighter;
   }
   .facilities__description-images {
     height: 200px;
@@ -909,6 +924,13 @@ html, * {
     display: flex;
     align-items: flex-end;
     min-height: 100%;
+  }
+  .facilities__description-bottomcontent {
+    margin: 15px;
+    text-align: left;
+  }
+  .facilities__frame {
+    margin-top: 25px;
   }
 }
 

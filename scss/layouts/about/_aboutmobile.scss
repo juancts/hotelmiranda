@@ -148,12 +148,28 @@
       padding: 15px;
       width: 100px;
       height: 100px;
-      margin-bottom: 25px;
+      margin-bottom: 5px;
     }
     &-image2{
       padding: 15px;
       width: 173px;
       height: 120px;
+    }
+    &-title1{
+      margin: 25px 0px;
+      h1{
+        font-weight: lighter;
+        color: white;
+      }
+    }
+    &-txt{
+      text-align: left;
+      h3{
+        color: white;
+        font-size: small;
+        font-weight: lighter;
+
+      }
     }
   }
   .facilities__description-images {
@@ -168,4 +184,16 @@
     align-items: flex-end;
     min-height: 100%;
   }
+
+  .facilities__description-bottomcontent{
+    margin: 15px;
+
+    text-align: left;
+  }
+
+  .facilities__frame{
+    margin-top: 25px;
+  }
+  
+
 }
