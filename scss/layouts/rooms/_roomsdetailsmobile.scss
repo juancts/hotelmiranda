@@ -74,8 +74,8 @@
   .amenities__content {
     max-width: 320px;
     margin: auto;
-    &-title{
-        margin-top: 25px;
+    &-title {
+      margin-top: 25px;
     }
   }
   .amenities__content-services {
@@ -84,11 +84,11 @@
     #list2 {
       margin-left: 35px;
     }
-    i{
-        color: #BDAC8D;
+    i {
+      color: #bdac8d;
     }
-    li{
-        margin-top: 25px;
+    li {
+      margin-top: 25px;
     }
     ul {
       list-style: none;
@@ -97,5 +97,63 @@
       font-weight: lighter;
       font-size: small;
     }
+  }
+
+  .founder {
+    width: 100%;
+  }
+  .founder__content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 320px;
+    text-align: center;
+    &-image {
+      margin-top: 25px;
+    }
+
+    &-title {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      font-weight: lighter;
+    }
+    &-subtitle {
+      margin-bottom: 25px;
+      color: #bdac8d;
+      font-size: 10px;
+    }
+    p {
+      font-family: $third-font;
+      font-size: small;
+    }
+  }
+
+  .cancellation {
+    width: 100%;
+  }
+  .cancellation__content {
+    
+    max-width: 320px;
+    margin: auto;
+    &-title {
+      margin-top: 75px;
+    }
+    &-description {
+        border-top: solid 1px #f5eee0;    
+      p {
+        margin-top: 25px;
+        font-family: $third-font;
+        font-size: small;
+      }
+    }
+  }
+
+ 
+ 
+  .room__content__card-ttitle{
+    margin-top: 75px;
+    width: 100%;
+    border-bottom: solid 1px #f5eee0;
+    //text-align: left;
   }
 }
