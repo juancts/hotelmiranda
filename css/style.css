@@ -1020,6 +1020,10 @@ html, * {
     position: absolute;
     bottom: 137px;
   }
+  .pagination__content {
+    margin-top: 55px;
+    margin-bottom: 55px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
