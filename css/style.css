@@ -15,6 +15,9 @@ html, * {
     font-family: "Archivo", Arial;
   }
   body h2 {
+    color: #777777;
+    letter-spacing: 1px;
+    font-size: medium;
     font-family: "Archivo", Arial;
   }
   body h1 {
@@ -989,16 +992,22 @@ html, * {
     margin: auto;
   }
   .room__content__card {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-  }
-  .room__content__card-image {
+    background-color: white;
     margin-top: 25px;
   }
+  .room__content__card-image img {
+    max-width: 320px;
+  }
+  .room__content__card-valuepernight {
+    margin-bottom: 15px;
+  }
   .room__content__card-value1 {
-    color: #BEAD8E;
+    color: #bead8e;
   }
   .room__content__card-title {
     margin-top: 25px;
@@ -1018,7 +1027,7 @@ html, * {
     height: 40px;
     background-color: white;
     position: absolute;
-    bottom: 137px;
+    bottom: 157px;
   }
   .pagination__content {
     margin-top: 55px;
@@ -1161,6 +1170,91 @@ html, * {
     margin-top: 75px;
     width: 100%;
     border-bottom: solid 1px #f5eee0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .offers {
+    width: 100%;
+  }
+  .offers__content {
+    max-width: 320px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .offers__content__card {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .offers__content__card-img {
+    position: relative;
+  }
+  .offers__content__card-img img {
+    max-width: 320px;
+  }
+  .offers__content__card-characteristics {
+    margin: 0px 15px;
+  }
+  .offers__content__card-title {
+    margin-top: 25px;
+  }
+  .offers__content__card-price {
+    color: #bead8e;
+  }
+  .offers__content__card-discount {
+    font-weight: bolder;
+    font-size: larger;
+    color: #de5777;
+    margin-bottom: 15px;
+  }
+  .offers__content__card-night {
+    font-size: x-small;
+  }
+  .offers__content__card-prices {
+    max-width: 320px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 5px;
+    padding-right: 15px;
+  }
+  .offers__content__card-subtitle {
+    margin-top: 25px;
+  }
+  .offers__content__card-subtitle h1 {
+    font-weight: lighter;
+    font-size: 40px;
+  }
+  .offers__content__card-description {
+    font-family: "Roboto", Arial;
+    font-size: small;
+  }
+  .offers__content__card-description p {
+    line-height: 2;
+  }
+  .popular {
+    width: 100%;
+    background-color: #222222;
+    height: 600px;
+  }
+  .popular__content {
+    max-width: 320px;
+    margin: auto;
+  }
+  .popular__content-title {
+    padding: 25px 0px;
+    text-align: center;
+  }
+  .popular__content-subtitle {
+    padding-bottom: 25px;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+  }
+  .room__content__card {
+    background-color: white;
   }
 }
 
