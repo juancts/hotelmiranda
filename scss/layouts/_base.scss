@@ -3,6 +3,18 @@ body {
     margin: 0;
     padding: 0;
     min-width: 320px;
+    h2 {
+      color: #777777;
+      letter-spacing: 1px;
+      font-size: medium;
+      font-family: $primary-font;
+    }
+    h1 {
+      font-family: $secondary-font;
+    }
+    h3 {
+      font-family: $third-font;
+    }
   }
 
   html, *{
