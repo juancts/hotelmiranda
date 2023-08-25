@@ -236,6 +236,18 @@ html, * {
   display: flex;
   flex-direction: column;
 }
+.dates__content-arrival {
+  margin-right: 25px;
+  width: 50%;
+}
+.dates__content-departure {
+  width: 50%;
+  margin-top: 25px;
+}
+.dates__content input {
+  margin-top: 25px;
+  width: 100%;
+}
 
 .dates__txt {
   margin: 15px 0px 15px 0px;
@@ -937,7 +949,7 @@ html, * {
     background-color: #333333;
   }
   .banner__content {
-    min-width: 75%;
+    max-width: 75%;
     display: flex;
     color: #ffffff;
     flex-direction: column;
@@ -992,16 +1004,27 @@ html, * {
     color: #9c9b9a;
   }
   .dates__content {
-    width: 90%;
-    min-width: 75%;
-    margin: auto;
-    padding: 25px 0px 35px 0px;
+    max-width: 75%;
+    padding: 25px 25px 35px 75px;
     font-family: "Roboto", Arial;
     color: white;
-    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
+  }
+  .dates__content-departure {
+    width: 250px;
+    margin-top: 0%;
+  }
+  .dates__content-arrival {
+    width: 250px;
+  }
+  .dates__content input {
+    width: 100%;
+  }
+  .dates__content-button {
+    padding: 0px 0px 25px 25px;
   }
   .dates__txt {
     margin: 15px 0px 15px 0px;

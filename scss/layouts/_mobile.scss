@@ -161,6 +161,18 @@
   width: 90%;
   display: flex;
   flex-direction: column;
+  &-arrival{
+    margin-right: 25px;
+    width: 50%;
+  }
+  &-departure{
+    width: 50%;
+    margin-top: 25px;
+  }
+ input{
+  margin-top: 25px;
+  width: 100%;
+ }
 }
 
 .dates__txt {
