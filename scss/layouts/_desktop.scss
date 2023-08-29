@@ -301,13 +301,12 @@
   .strongteam__box1 {
     width: 270px;
     height: 300px;
-    
   }
   .strongteam__box2 {
     width: 270px;
     max-height: 300px;
     padding: 0px;
-    &--contentblk {  
+    &--contentblk {
       width: 270px;
       height: 300px;
       padding: 0%;
@@ -315,38 +314,124 @@
     }
   }
 
-.rooms{
-  
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}  
+  .rooms {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 
-.rooms__content{
-  max-width: 1024px;
+  .rooms__content {
+    max-width: 1024px;
+    position: relative;
+  }
 
-}
-
-.rooms__title{
-  width: 700px;
-  h1{
+  .rooms__title {
     width: 700px;
+    margin: 25px 0px;
+    h1 {
+      width: 700px;
+    }
   }
+
+  .rooms__icons {
+    position: absolute;
+    top: 145px;
+    width: 250px;
+  }
+
+  .rooms__slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-width: 100vw;
+    height: 300px;
+    background-color: transparent;
+    &--left {
+      left: 155px;
+      top: 300px;
+    }
+    &--right {
+      left: 823px;
+      top: 300px;
+    }
+    img {
+      width: 45px;
+    }
+    div {
+      min-width: 500px;
+      margin: 0px 15px;
+      background-color: #e0e0df;
+    }
+  }
+
+.minimal{
+  position: relative;
 }
 
-.rooms__slider{
-  background-color: #e0e0df;
-  min-width: 100vw;
-  height: 300px;
-  &--left{
-    top: 620px;
-  }
-  &--right{
-    left: 600px;
-    top: 620px;
-  }
+.minimal__content{
+  position: absolute;
+  bottom: 220px;
+  display: flex;
+  flex-direction: row;
+  height:max-content;
+  min-width: 450px;
+  padding: 15px 15px 0px 15px;
+  align-items: center;
+  background-color: white;
+  
 }
 
+.minimal__txt{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 0;
+  h1, h3{
+    width: 100%;
+    text-align: left;
+  }
+  
+}
+
+.minimal__price{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  &--value{
+    font-size: 20px;
+  }
+  &--night{
+    
+    font-size: 12px;
+  }
+
+}
+
+.introvideo{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.introvideo__content{
+  display: flex;
+  flex-direction: row;
+  max-width: 1024px;
+  padding:0px 0px  0px 75px;
+}
+.introvideo__paragraph{
+  padding-right: 130px;
+}
+
+.introvideo__button{
+  display: none;
+}
+
+
+.introvideo__back{
+  min-width: 400px;
+  background-color: #bead8e;
+}
 
 }
