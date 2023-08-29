@@ -315,5 +315,31 @@
     }
   }
 
+.rooms{
   
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}  
+
+.rooms__content{
+  max-width: 1024px;
+
+}
+
+.rooms__slider{
+  background-color: #e0e0df;
+  min-width: 100vw;
+  height: 300px;
+  &--left{
+    top: 620px;
+  }
+  &--right{
+    left: 600px;
+    top: 620px;
+  }
+}
+
+
 }
