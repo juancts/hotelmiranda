@@ -841,7 +841,8 @@ html, * {
   .navbar__content {
     justify-content: space-evenly;
     align-items: center;
-    width: 75%;
+    width: 100%;
+    max-width: 1024px;
     height: 120px;
     position: relative;
   }
@@ -949,7 +950,7 @@ html, * {
     background-color: #333333;
   }
   .banner__content {
-    max-width: 75%;
+    max-width: 1024px;
     display: flex;
     color: #ffffff;
     flex-direction: column;
@@ -1004,7 +1005,7 @@ html, * {
     color: #9c9b9a;
   }
   .dates__content {
-    max-width: 75%;
+    max-width: 1024px;
     padding: 25px 25px 35px 75px;
     font-family: "Roboto", Arial;
     color: white;
@@ -1032,12 +1033,15 @@ html, * {
     margin: 15px 0px 15px 0px;
   }
   .about__section {
+    width: 100%;
     display: flex;
     justify-content: center;
-    width: 100%;
     padding-top: 100px;
   }
   .about {
+    position: relative;
+    padding: 0%;
+    margin-top: 0%;
     background-color: transparent;
   }
   .about__main {
@@ -1052,61 +1056,60 @@ html, * {
     margin: 0px;
   }
   .about__content {
+    max-width: 1024px;
     display: flex;
     flex-direction: column;
     justify-content: left;
     width: 100%;
-    min-width: 100%;
-    margin: 0%;
-    position: absolute;
-    padding-top: 400px;
-    right: 100px;
-    bottom: 30px;
   }
   .about__content-back {
-    padding-left: 75px;
-    padding-right: 550px;
+    width: 100%;
+    padding-left: 100px;
     padding-bottom: 150px;
     background-color: #f9f9f9;
   }
+  .about__content-back p {
+    max-width: 400px;
+  }
   .about__content-title {
-    padding-left: 75px;
+    padding-left: 100px;
   }
   .strongteam {
-    position: relative;
-    flex-grow: 1;
-  }
-  .strongteam__box1 {
-    width: 270px;
-    height: 300px;
-    margin: 15px;
-  }
-  .strongteam__box2 {
-    width: 270px;
-    height: 300px;
-  }
-  .strongteam__box2--contentblk {
-    padding: 15px;
-    width: 270px;
-    height: 300px;
+    min-width: 612px;
+    z-index: 100;
   }
   .strongteam__content {
     min-width: 100%;
     display: flex;
     flex-direction: column;
     position: revert;
-    padding-left: 275px;
+    margin-left: 75px;
   }
   .strongteam__content-st {
     width: 100%;
     display: inline-flex;
     flex-direction: row-reverse;
-    justify-content: center;
+    justify-content: right;
   }
   .strongteam__content-lr {
     width: 100%;
     display: inline-flex;
-    justify-content: center;
+    justify-content: right;
+  }
+  .strongteam__box1 {
+    width: 270px;
+    height: 300px;
+  }
+  .strongteam__box2 {
+    width: 270px;
+    max-height: 300px;
+    padding: 0px;
+  }
+  .strongteam__box2--contentblk {
+    width: 270px;
+    height: 300px;
+    padding: 0%;
+    margin: 15px 0px 0px 15px;
   }
 }
 .navbar {
