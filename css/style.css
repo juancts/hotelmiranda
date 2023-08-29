@@ -298,7 +298,7 @@ html, * {
 }
 
 .strongteam__box1 {
-  background-color: #9c9b9a;
+  background-color: #E4E4E4;
   height: 300px;
   width: -webkit-fill-available;
 }
@@ -956,12 +956,12 @@ html, * {
     padding: 75px;
   }
   .banner__title {
-    font-family: "Archivo", Arial;
     font-size: small;
     width: 90%;
     margin: 75px 0px 25px 0px;
   }
   .banner__title--ppal {
+    font-family: "Archivo", Arial;
     letter-spacing: 1px;
     margin: 15% 0% 15% 0%;
   }
@@ -1014,20 +1014,99 @@ html, * {
     align-items: center;
   }
   .dates__content-departure {
-    width: 250px;
+    width: 550px;
     margin-top: 0%;
   }
   .dates__content-arrival {
-    width: 250px;
+    width: 550px;
   }
   .dates__content input {
     width: 100%;
   }
   .dates__content-button {
+    text-align: right;
+    width: 100%;
     padding: 0px 0px 25px 25px;
   }
   .dates__txt {
     margin: 15px 0px 15px 0px;
+  }
+  .about__section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 100px;
+  }
+  .about {
+    background-color: transparent;
+  }
+  .about__main {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .banner__subtitle {
+    display: flex;
+  }
+  .banner__subtitle--txt {
+    margin: 0px;
+  }
+  .about__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    min-width: 100%;
+    margin: 0%;
+    position: absolute;
+    padding-top: 400px;
+    right: 100px;
+    bottom: 30px;
+  }
+  .about__content-back {
+    padding-left: 75px;
+    padding-right: 550px;
+    padding-bottom: 150px;
+    background-color: #f9f9f9;
+  }
+  .about__content-title {
+    padding-left: 75px;
+  }
+  .strongteam {
+    position: relative;
+    flex-grow: 1;
+  }
+  .strongteam__box1 {
+    width: 270px;
+    height: 300px;
+    margin: 15px;
+  }
+  .strongteam__box2 {
+    width: 270px;
+    height: 300px;
+  }
+  .strongteam__box2--contentblk {
+    padding: 15px;
+    width: 270px;
+    height: 300px;
+  }
+  .strongteam__content {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: revert;
+    padding-left: 275px;
+  }
+  .strongteam__content-st {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .strongteam__content-lr {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
   }
 }
 .navbar {
