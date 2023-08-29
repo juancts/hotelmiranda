@@ -1120,6 +1120,12 @@ html, * {
   .rooms__content {
     max-width: 1024px;
   }
+  .rooms__title {
+    width: 700px;
+  }
+  .rooms__title h1 {
+    width: 700px;
+  }
   .rooms__slider {
     background-color: #e0e0df;
     min-width: 100vw;
