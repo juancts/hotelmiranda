@@ -1367,6 +1367,9 @@ html, * {
     flex-direction: column;
   }
   .footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
     background-image: url("../../assets/images/imgfondo.png");
   }
@@ -1401,6 +1404,17 @@ html, * {
   }
   .footer__contactus--description {
     margin: 10px 0px 10px 0px;
+  }
+  .footer__copyright--content {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer__copyright--content #margin {
+    margin: 0px;
   }
 }
 .navbar {
