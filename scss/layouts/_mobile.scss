@@ -161,24 +161,26 @@
   width: 90%;
   display: flex;
   flex-direction: column;
-  &-arrival{
+  &-arrival {
     margin-right: 25px;
     width: 50%;
   }
-  &-departure{
+  &-departure {
     width: 50%;
     margin-top: 25px;
   }
- input{
-  margin-top: 25px;
-  width: 100%;
- }
+  input {
+    margin-top: 25px;
+    width: 100%;
+  }
 }
 
 .dates__txt {
   margin: 15px 0px 15px 0px;
 }
 
+
+//ABOUT SECTION
 .about {
   position: relative;
   margin-top: 45px;
@@ -224,7 +226,7 @@
 }
 
 .strongteam__box1 {
-  background-color: #E4E4E4;
+  background-color: #e4e4e4;
   height: 300px;
   width: -webkit-fill-available;
 }
@@ -432,6 +434,12 @@
   justify-content: center;
   text-align: center;
   margin: auto;
+  &-cardmobile {
+    display: block;
+  }
+  &-card {
+    display: none;
+  }
 }
 
 .facilities__title {
@@ -504,11 +512,13 @@
 }
 .menu__icono {
   width: 100%;
-
   margin-top: 10%;
   width: 100%;
   display: inline-flex;
   justify-content: right;
+}
+.menu__icono__desktop {
+  display: none;
 }
 
 .menu__title {
@@ -558,6 +568,10 @@
   }
 }
 
+.menuslider__data__cards-right {
+  display: none;
+}
+
 .menuslider__buttons {
   display: inline-flex;
   justify-content: flex-end;
@@ -577,6 +591,9 @@
   justify-content: center;
   align-items: center;
 
+  &-desktop{
+    display: none;
+  }
   #buttons {
     margin-top: 10%;
     width: fit-content;
