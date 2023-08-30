@@ -409,16 +409,25 @@
 
 .introvideo{
   width: 100%;
+  height: 700px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   position: relative;
+  background-color: #222222;
 }
 
 .introvideo__content{
+  position: absolute;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   max-width: 1024px;
-  padding:0px 0px  0px 75px;
+  padding:45px 0px;
+  left: 75px;
+  right: 75px;
+
 }
 .introvideo__paragraph{
   padding-right: 130px;
@@ -432,6 +441,13 @@
 .introvideo__back{
   min-width: 400px;
   background-color: #bead8e;
+}
+
+.introvideo__video{
+  padding-top: 0%;
+  img{
+    width: 470px;
+  }
 }
 
 }
