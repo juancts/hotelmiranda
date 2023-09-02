@@ -70,22 +70,157 @@
     }
   }
 
- .services{
+  .services {
     width: 100%;
     display: flex;
     justify-content: center;
- }
+  }
 
-.services__content{
+  .services__content {
     margin: 65px 0px;
     display: flex;
     flex-direction: row;
     width: 100%;
     max-width: 1024px;
     justify-content: space-evenly;
-}
+  }
 
+  .restaurant {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 
+  .restaurant__content {
+    max-width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    &-image {
+      min-width: 50%;
+      text-align: right;
+    }
+    &-description {
+      min-width: 50%;
+      margin-left: 25px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .restaurant__image {
+    img {
+      width: 375px;
+    }
+  }
+  .restaurant__title {
+    margin-bottom: 25px;
+  }
+  .restaurant__subtitle {
+    width: 350px;
+  }
 
+  .restaurant__description {
+    h3 {
+      font-weight: lighter;
+      font-size: small;
+      width: 500px;
+    }
+  }
 
+  .facilities__about {
+    padding-bottom: 75px;
+    background-color: #222222;
+  }
+
+  .facilities__subtitle {
+    &-about {
+      color: white;
+    }
+  }
+
+  .facilities__content-cardmobileabout {
+    padding-left: 35px;
+    width: 100%;
+    background-color: #292929;
+    height: 100%;
+    color: white;
+    #img2 {
+      filter: contrast(100);
+    }
+  }
+  .facilities__content-cardabout {
+    color: white;
+    height: 300px;
+    padding-left: 35px;
+    min-width: 100%;
+    background-color: #292929;
+    #img2 {
+      filter: contrast(100);
+    }
+  }
+
+  .counter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .counter__content {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    &-title {
+      width: 100%;
+      text-align: left;
+      margin-top: 75px;
+    }
+    &-subtitle {
+      width: 100%;
+      text-align: left;
+      margin-top: 25px;
+      margin-bottom: 25px;
+
+      h1 {
+        font-size: 56px;
+        font-weight: lighter;
+      }
+    }
+    &-imagebottom{
+        #points{
+            display: none;
+        }
+    }
+  }
+
+  .counter__contentnumbers {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 45px 0px 75px 0px;
+    &-order {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .counternumbers-number {
+    margin: 0px 10px 0px 25px;
+    h1 {
+      font-size: 46px;
+    }
+    h3 {
+      font-size: small;
+      color: #777777;
+      font-weight: lighter;
+    }
+  }
+
+  
 }

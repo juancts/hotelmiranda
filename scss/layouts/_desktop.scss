@@ -449,12 +449,14 @@
 
   .facilities {
     width: 100%;
+    
   }
 
   .facilities__content {
     min-width: 1024px;
 
     &-cards {
+
       width: 100%;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -462,15 +464,29 @@
       justify-items: center;
     }
     &-cardmobile {
-      max-width: 250px;
+      padding-left: 25px;
+      height: 300px;
+      width: 100%;
+      p{
+
+        max-width: 250px;
+      }
     }
     &-card {
+      height: 300px;
+      padding-left: 25px;
+      width: 100%;
       display: block;
-      max-width: 250px;
+      //max-width: 250px;
+      p{
+        max-width: 250px;
+      }
     }
   }
 
   .facilities__subtitle {
+    padding-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
   }
 
