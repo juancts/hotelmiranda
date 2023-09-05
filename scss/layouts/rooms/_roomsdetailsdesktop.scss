@@ -1,52 +1,218 @@
 @media only screen and (min-width: 1000px) {
-
-.roomdetails{
+  .roomdetails {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+  }
 
-.roomdetails__content{
+  .roomdetails__content {
     max-width: 1024px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 45px;
+    width: 100%;
+
+    &-title {
+      position: absolute;
+      background-color: white;
+      width: 500px;
+    }
+
+    &-sec1 {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    &-sec2 {
+      width: 100%;
+      margin-top: 25px;
+
+      font-family: $third-font;
+      font-size: small;
+    }
+
+    &-izq {
+      display: flex;
+      flex-direction: column;
+      width: 600px;
+    }
+
+    img {
+      width: 600px;
+    }
+  }
+
+  .roomdetails__subtitleprice {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .minimal__price {
+    &--value {
+      font-size: 35px;
+    }
+    &--night {
+      font-size: 15px;
+    }
+  }
+
+  .roomdetails__availability-title {
+    text-align: center;
+  }
+
+  .roomdetails__availability-checkin {
+    h3 {
+      margin-top: 15px;
+      font-family: $third-font;
+      font-size: small;
+    }
+
+    input {
+      width: 220px;
+      background-color: #f8f8f8;
+      border: none;
+      height: 45px;
+    }
+  }
+
+  .availability {
+    display: none;
+  }
+
+ 
+
+  .amenities {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .amenities__content {
+    max-width: 1024px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &-title {
+      margin: 100px 0px 35px 65px;
+    }
+
+    &-services {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      ul {
+        list-style: none;
+        i {
+          color: $third-color;
+        }
+      }
+    }
+  }
+
+.founder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.founder__content{
+    max-width: 1024px;
+    margin-top: 75px;
+
+    &-image{
+        margin: 25px 0px 25px 0px;
+    }
+    &-subtitle{
+        margin-bottom: 25px;
+    }
+    &-description{
+        text-align: center;
+    }
+    &-card{
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        width: 270px;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+
+.cancellation{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cancellation__content{
+    max-width: 1024px;
 
     &-title{
-        position: absolute;
-        background-color: white;
-        width: 300px;
+        margin-left: 75px;
+        margin-top: 75px;
     }
+    &-description{
+        margin-left: 75px;
+        width: 50%;
+    }
+}
 
-    &-sec1{
-        width: 100%;
+.room{
+    width: 100%;
+}
+
+.room__content{
+    padding-left: 75px;
+    padding-bottom: 125px;
+}
+
+.room__content__dsktp{
+    position: relative;
+
+    &-ttitle{
+        margin-bottom: 45px;
+    }
+    &-icons{
         display: flex;
         justify-content: space-evenly;
-    }
-
-    &-sec2{
-        width: 100%;
-        margin-top: 25px;
+        align-items: center;
+        width: 200px;
+        height: 25px;
+        background-color: white;
+        position: absolute;
+        top: 280px;
+        right: 60px;
         
-        font-family: $third-font;
-        font-size: small;
-    }
-
-    &-izq{
-        display:flex;
-        flex-direction: column;
     }
 }
 
 
-.availability{
-    display: none;
-}
+.room__content__card{
+    position: relative;
 
-.room__content__card-icons{
-    display: none;
+    &-ttitle{
+        margin-bottom: 45px;
+    }
+    &-icons{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 200px;
+        height: 25px;
+        background-color: white;
+        position: absolute;
+        top: 280px;
+        right: 60px;
+        
+    }
 }
 
 }
