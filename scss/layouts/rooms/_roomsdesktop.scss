@@ -18,14 +18,35 @@
 }    
 
 .room__content__card{
+    &-valuepernight{
+        display: flex;
+        justify-content: center;
+        font-family: $primary-font;
+        
+    }
+    &-value1{
+        color: $third-color;
+        margin-right: 10px;
+    }
+    &-txt{
+        color: $fourth-color;
+    }
     &-title{
         text-align: center;
+        margin-top: 25px;
     }
     &-subtitle{
         text-align: center;
+        font-size: small;
+        margin-bottom: 15px;
     }
-    span{
-        text-align: center;
+    
+    &-icons{
+        position: absolute;
+        background-color: white;
+        bottom: 150px;
+        margin-left: 100px;
+        
     }
 }
 

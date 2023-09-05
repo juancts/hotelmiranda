@@ -1818,14 +1818,32 @@ html, * {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
+  .room__content__card-valuepernight {
+    display: flex;
+    justify-content: center;
+    font-family: "Archivo", Arial;
+  }
+  .room__content__card-value1 {
+    color: #BEAD8E;
+    margin-right: 10px;
+  }
+  .room__content__card-txt {
+    color: #BDBDBD;
+  }
   .room__content__card-title {
     text-align: center;
+    margin-top: 25px;
   }
   .room__content__card-subtitle {
     text-align: center;
+    font-size: small;
+    margin-bottom: 15px;
   }
-  .room__content__card span {
-    text-align: center;
+  .room__content__card-icons {
+    position: absolute;
+    background-color: white;
+    bottom: 150px;
+    margin-left: 100px;
   }
   .pagination {
     text-align: center;
