@@ -1,0 +1,52 @@
+@media only screen and (min-width: 1000px) {
+
+.roomdetails{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.roomdetails__content{
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+
+    &-title{
+        position: absolute;
+        background-color: white;
+        width: 300px;
+    }
+
+    &-sec1{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &-sec2{
+        width: 100%;
+        margin-top: 25px;
+        
+        font-family: $third-font;
+        font-size: small;
+    }
+
+    &-izq{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+
+.availability{
+    display: none;
+}
+
+.room__content__card-icons{
+    display: none;
+}
+
+}
