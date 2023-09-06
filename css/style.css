@@ -971,7 +971,9 @@ html, * {
   }
   .banner {
     width: 100%;
-    background-color: #333333;
+    background-image: url("../../assets/images/banner1.jpg");
+    background-position: center;
+    background-size: cover;
   }
   .banner__content {
     max-width: 1024px;
