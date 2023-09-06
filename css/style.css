@@ -1838,6 +1838,15 @@ html, * {
   .room__content__card-offers img {
     width: 300px;
   }
+  .room__content__card-offersdsktp {
+    position: relative;
+    background-color: white;
+    height: 400px;
+    max-width: 300px;
+  }
+  .room__content__card-offersdsktp img {
+    width: 300px;
+  }
   .room__content__card-valuepernight {
     display: flex;
     justify-content: center;
@@ -1860,6 +1869,16 @@ html, * {
     margin-bottom: 15px;
   }
   .room__content__card-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    width: 200px;
+    position: absolute;
+    background-color: white;
+    bottom: 190px;
+    left: 50px;
+  }
+  .room__content__card-iconsdsktp {
     display: flex;
     justify-content: space-evenly;
     padding: 5px;
@@ -1894,6 +1913,9 @@ html, * {
   }
   .room__content__card-image img {
     max-width: 320px;
+  }
+  .room__content__card-offersdsktp {
+    display: none;
   }
   .room__content__card-valuepernight {
     margin-bottom: 15px;
@@ -2010,6 +2032,26 @@ html, * {
     margin-top: 25px;
   }
   .amenities__content-services ul {
+    list-style: none;
+    padding: 0;
+    font-family: "Roboto", Arial;
+    font-weight: lighter;
+    font-size: small;
+  }
+  .amenities__content-servicesoff {
+    display: inline-flex;
+    border-top: solid 1px #f5eee0;
+  }
+  .amenities__content-servicesoff #list2 {
+    margin-left: 35px;
+  }
+  .amenities__content-servicesoff i {
+    color: #bdac8d;
+  }
+  .amenities__content-servicesoff li {
+    margin-top: 25px;
+  }
+  .amenities__content-servicesoff ul {
     list-style: none;
     padding: 0;
     font-family: "Roboto", Arial;
@@ -2371,6 +2413,9 @@ html, * {
     margin-top: 25px;
     margin-bottom: 25px;
   }
+  .offers__content__card-button {
+    display: none;
+  }
   .offers__content__card-img {
     position: relative;
   }
@@ -2402,7 +2447,7 @@ html, * {
     flex-direction: column;
     align-items: flex-end;
     position: absolute;
-    bottom: 5px;
+    bottom: 300px;
     padding-right: 15px;
   }
   .offers__content__card-subtitle {
@@ -2440,6 +2485,9 @@ html, * {
   }
   .room__content__card {
     background-color: white;
+  }
+  .room__content__card-iconsdsktp {
+    display: none;
   }
 }
 @media screen and (max-width: 1000px) {

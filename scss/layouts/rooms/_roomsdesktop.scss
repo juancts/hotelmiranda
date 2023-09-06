@@ -31,10 +31,19 @@
       img{
         width: 300px;
       }
+
     }
     
-    
+    &-offersdsktp{
+      position: relative;
+      background-color: white;
+      height: 400px;
+      max-width: 300px;
+      img{
+        width: 300px;
+      }
 
+      }
 
     &-valuepernight {
       display: flex;
@@ -60,6 +69,16 @@
 
     &-icons {
         display: flex;
+        justify-content: space-evenly;
+        padding: 5px;
+        width: 200px;
+      position: absolute;
+      background-color: white;
+      bottom: 190px;
+      left:50px;
+    }
+    &-iconsdsktp{
+      display: flex;
         justify-content: space-evenly;
         padding: 5px;
         width: 200px;

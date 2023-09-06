@@ -102,6 +102,27 @@
     }
   }
 
+  .amenities__content-servicesoff {
+    display: inline-flex;
+    border-top: solid 1px #f5eee0;
+    #list2 {
+      margin-left: 35px;
+    }
+    i {
+      color: #bdac8d;
+    }
+    li {
+      margin-top: 25px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      font-family: $third-font;
+      font-weight: lighter;
+      font-size: small;
+    }
+  }
+
   .founder {
     width: 100%;
   }
