@@ -1817,6 +1817,24 @@ html, * {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    width: 100%;
+  }
+  .room__content__card {
+    height: 400px;
+    width: 300px;
+    position: relative;
+  }
+  .room__content__card img {
+    width: 300px;
+  }
+  .room__content__card-offers {
+    position: relative;
+    background-color: white;
+    height: 400px;
+    max-width: 300px;
+  }
+  .room__content__card-offers img {
+    width: 300px;
   }
   .room__content__card-valuepernight {
     display: flex;
@@ -1840,10 +1858,14 @@ html, * {
     margin-bottom: 15px;
   }
   .room__content__card-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    width: 200px;
     position: absolute;
     background-color: white;
-    bottom: 150px;
-    margin-left: 100px;
+    bottom: 190px;
+    left: 50px;
   }
   .pagination {
     text-align: center;
@@ -2131,6 +2153,22 @@ html, * {
   .amenities__content-title {
     margin: 100px 0px 35px 65px;
   }
+  .amenities__content-servicesoff {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .amenities__content-servicesoff ul {
+    margin-right: 25px;
+    list-style: none;
+  }
+  .amenities__content-servicesoff ul li {
+    margin-bottom: 15px;
+  }
+  .amenities__content-servicesoff ul i {
+    color: #BEAD8E;
+  }
   .amenities__content-services {
     width: 100%;
     display: flex;
@@ -2189,7 +2227,6 @@ html, * {
     width: 100%;
   }
   .room__content {
-    padding-left: 75px;
     padding-bottom: 125px;
   }
   .room__content__dsktp {
@@ -2209,22 +2246,113 @@ html, * {
     top: 280px;
     right: 60px;
   }
-  .room__content__card {
-    position: relative;
+  .relatedroomstitle {
+    margin-top: 75px;
+    max-width: 1024px;
+    width: 100%;
+    margin-left: 75px;
   }
-  .room__content__card-ttitle {
-    margin-bottom: 45px;
-  }
-  .room__content__card-icons {
+}
+@media only screen and (min-width: 1000px) {
+  .offers {
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 25px;
-    background-color: white;
+  }
+  .offers__content {
+    max-width: 1024px;
+    width: 100%;
+  }
+  .offers__content__card {
+    margin-top: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+  }
+  .offers__content__card img {
+    width: 100%;
+    padding: 0px 75px;
+  }
+  .offers__content__card-downsction {
     position: absolute;
-    top: 280px;
-    right: 60px;
+    top: 390px;
+    left: 130px;
+  }
+  .offers__content__card-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .offers__content__card-upcontent {
+    background-color: white;
+    border-top: solid #BEAD8E;
+    max-width: 768px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: space-between;
+    padding: 45px;
+  }
+  .offers__content__card-prices {
+    font-family: "Archivo", Arial;
+  }
+  .offers__content__card-price {
+    text-decoration: line-through;
+    color: #BEAD8E;
+  }
+  .offers__content__card-discount {
+    font-size: larger;
+    color: #DE5777;
+  }
+  .offers__content__card-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .offers__content__card-downcontent {
+    max-width: 768px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding: 45px;
+  }
+  .offers__content__card-description {
+    width: 40em;
+  }
+  .offers__content__card-btnmobile {
+    display: none;
+  }
+  .popular {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    align-items: center;
+  }
+  .popular__content {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+  }
+  .popular__content-title {
+    text-align: center;
+    margin: 45px 0px;
+  }
+  .popular__content-subtitle {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 85px;
+    font-weight: lighter;
   }
 }
 @media screen and (max-width: 1000px) {

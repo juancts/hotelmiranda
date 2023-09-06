@@ -1,62 +1,78 @@
 @media only screen and (min-width: 1000px) {
-
-.room{
+  .room {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-}
+  }
 
-.room__content{
+  .room__content {
     margin-top: 75px;
     max-width: 1024px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    width: 100%;
+  }
 
-}    
-
-.room__content__card{
-    &-valuepernight{
-        display: flex;
-        justify-content: center;
-        font-family: $primary-font;
-        
-    }
-    &-value1{
-        color: $third-color;
-        margin-right: 10px;
-    }
-    &-txt{
-        color: $fourth-color;
-    }
-    &-title{
-        text-align: center;
-        margin-top: 25px;
-    }
-    &-subtitle{
-        text-align: center;
-        font-size: small;
-        margin-bottom: 15px;
+  .room__content__card {
+    height: 400px;
+    width: 300px;
+    position: relative;
+    img{
+        width: 300px;
+      }
+    &-offers {
+        position: relative;
+      background-color: white;
+      height: 400px;
+      max-width: 300px;
+      img{
+        width: 300px;
+      }
     }
     
-    &-icons{
-        position: absolute;
-        background-color: white;
-        bottom: 150px;
-        margin-left: 100px;
-        
+    
+
+
+    &-valuepernight {
+      display: flex;
+      justify-content: center;
+      font-family: $primary-font;
     }
-}
+    &-value1 {
+      color: $third-color;
+      margin-right: 10px;
+    }
+    &-txt {
+      color: $fourth-color;
+    }
+    &-title {
+      text-align: center;
+      margin-top: 25px;
+    }
+    &-subtitle {
+      text-align: center;
+      font-size: small;
+      margin-bottom: 15px;
+    }
 
+    &-icons {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5px;
+        width: 200px;
+      position: absolute;
+      background-color: white;
+      bottom: 190px;
+      left:50px;
+    }
+  }
 
-.pagination{
+  .pagination {
     text-align: center;
-    min-width:100%;
+    min-width: 100%;
     margin: 75px 0px 75px 0px;
-}
-
-
-
+  }
 }

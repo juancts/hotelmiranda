@@ -1,0 +1,124 @@
+@media only screen and (min-width: 1000px) {
+  .offers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .offers__content {
+    max-width: 1024px;
+    width: 100%;
+  }
+
+  .offers__content__card {
+    margin-top: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    img {
+    
+      width: 100%;
+      padding: 0px 75px;
+    }
+
+
+
+    &-downsction{
+        position: absolute;
+        top: 390px;
+        left: 130px;
+    }
+    &-up {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    &-upcontent {
+      background-color: white;
+      border-top: solid $third-color;
+      max-width: 768px;
+      width: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      align-content: center;
+      justify-content: space-between;
+      padding: 45px;
+    }
+
+    &-prices{
+        font-family: $primary-font;
+    }
+
+    &-price{
+        text-decoration: line-through;
+        color: $third-color;
+    }
+    
+    &-discount{
+        font-size: larger;
+        color: #DE5777;
+    }
+
+    &-down {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    &-downcontent {
+      max-width: 768px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: space-between;
+      padding: 45px;
+    }
+
+    &-description{
+        width: 40em;
+    }
+    
+  }
+
+ 
+
+  .offers__content__card-btnmobile {
+    display: none;
+  }
+
+
+.popular{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    align-items: center;
+}
+
+.popular__content{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    &-title{
+        text-align: center;
+        margin: 45px 0px;
+    }
+    &-subtitle{
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 85px;
+        font-weight: lighter;
+    }
+}
+
+
+
+
+}
