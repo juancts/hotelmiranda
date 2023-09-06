@@ -178,7 +178,7 @@ html, * {
   width: 90%;
   margin: auto;
   max-width: 320px;
-  padding: 35px 0px 35px 0px;
+  padding: 35px 0px 35px 13px;
   display: flex;
   color: #ffffff;
   flex-direction: column;
