@@ -2063,7 +2063,7 @@ html, * {
   }
   .strongteam__box2--contentblk img {
     width: 40px;
-    margin: 0% 0% 20% 0%;
+    margin: 0% 0% 10% 0%;
   }
   .strongteam__box2--imgcontent {
     display: flex;
@@ -2155,7 +2155,7 @@ html, * {
     left: 90%;
   }
   .rooms__slider-photocontent {
-    width: fit-content;
+    width: 100%;
   }
   .minimal {
     position: relative;
@@ -2201,8 +2201,11 @@ html, * {
 }
 @media screen and (min-width: 1000px) {
   .rooms {
+    width: 100%;
+    height: 750px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
   }
   .rooms__content {
@@ -2210,30 +2213,47 @@ html, * {
     position: relative;
   }
   .rooms__title {
-    width: 700px;
-    margin: 25px 0px;
+    text-align: center;
+    width: 100%;
+    margin: 45px 0px;
+    font-family: "Archivo", Arial;
+    color: #bead8e;
   }
-  .rooms__title h1 {
-    width: 700px;
+  .rooms__title--subtitle {
+    width: 100%;
+    color: black;
+  }
+  .rooms__title--subtitle h1 {
+    font-size: 45px;
+    font-weight: lighter;
   }
   .rooms__icons {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
     position: absolute;
-    top: 145px;
+    top: 200px;
+    left: 380px;
     width: 250px;
   }
   .rooms__slider {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    min-width: 100vw;
     height: 300px;
     background-color: transparent;
   }
   .rooms__slider--left {
+    position: absolute;
+    z-index: 200;
     left: 155px;
     top: 300px;
   }
   .rooms__slider--right {
+    position: absolute;
+    z-index: 200;
     left: 823px;
     top: 300px;
   }
@@ -2247,14 +2267,18 @@ html, * {
   }
   .minimal {
     position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .minimal__content {
+    max-width: 1024px;
+    width: 350px;
     position: absolute;
-    bottom: 220px;
+    bottom: -2em;
     display: flex;
     flex-direction: row;
-    height: max-content;
-    min-width: 450px;
+    justify-content: center;
     padding: 15px 15px 0px 15px;
     align-items: center;
     background-color: white;
@@ -2269,6 +2293,11 @@ html, * {
   .minimal__txt h3 {
     width: 100%;
     text-align: left;
+  }
+  .minimal__txt h3 {
+    font-size: small;
+    font-weight: lighter;
+    width: 80%;
   }
   .minimal__price {
     display: flex;
