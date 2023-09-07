@@ -27,9 +27,12 @@
 @media screen and (min-width:1000px){
     .slider {
         width: 100%;
+        display: flex;
+        justify-content: center;
       }
     
       .slider__content {
+        margin-top: 75px;
         display: flex;
         flex-direction: row;
         gap: 25px;

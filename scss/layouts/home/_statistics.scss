@@ -51,6 +51,8 @@
     max-width: 1024px;
     display: flex;
     justify-content: center;
+    background-color: #222222;
+    padding: 75px;
   }
 
   .statistics__content {
@@ -59,12 +61,29 @@
     flex-direction: row;
     justify-content: space-between;
     max-width: none;
+    &--qtty{
+      font-family: $primary-font;
+      font-size: 45px;
+      font-weight: bolder;
+    }
+    p{
+      font-weight: lighter;
+      font-size: small;
+    }
   }
   .statistic__content {
+    color: white;
+    text-align: center;
     margin: 0;
     width: 70%;
     display: flex;
+    align-items: center;
     flex-direction: column;
+    img{
+      margin-bottom: 25px;
+      width: 100px;
+    }
+    
   }
 
 }

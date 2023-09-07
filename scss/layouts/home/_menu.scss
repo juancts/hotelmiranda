@@ -83,19 +83,28 @@
   .menu {
     position: relative;
     width: 100%;
-    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
   }
 
   .menu__content {
-    min-width: 1024px;
+    max-width: 1024px;
+    width: 100%;
   }
 
   .menu__title {
-    padding-left: 40px;
+    margin-bottom: 55px;
+    text-align: left;
   }
 
   .menu__submenu {
-    padding-left: 40px;
+    margin-bottom: 55px;
+    text-align: left;
+    h1{
+      font-size: 75px;
+      font-weight: lighter;
+    }
   }
 
   .menuslider__data {
@@ -122,14 +131,22 @@
   .menu__icono__desktop {
     position: absolute;
     display: block;
-    text-align: left;
+    left: 0;
+    top: -120px;
     img {
       width: 150px;
     }
   }
 
   .menuslider__buttons {
-    display: none;
+    width: 100%;
+    max-width: 1024px;
+    position: absolute;
+    display: block;
+    bottom: 400px;
+    text-align: right; 
+    img{
+      margin-right: 15px;
+    } 
   }
-
 }
