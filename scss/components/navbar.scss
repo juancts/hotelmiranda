@@ -6,5 +6,216 @@
 }
 
 
+@media screen and (max-width:1000px){
+    .navbar {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+       margin: auto;
+        max-width: 320px;
+        align-items: center;
+      }
+      .navbar__content {
+        max-width: 320px;
+    
+        width: 90%;
+        margin: auto;
+        &-menu {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    
+      .navbar__toggle {
+        width: 15%;
+        font-size: 25px;
+        // margin: 10px 0px 10px 25px;
+        &--user {
+          font-size: 25px;
+          margin: auto;
+        }
+        &--search {
+          font-size: 25px;
+        }
+      }
+    
+      .navbar__title {
+        width: 35%;
+        margin: 10px;
+        &--strong {
+          font-weight: bolder;
+          letter-spacing: 1px;
+        }
+        &--thin {
+          letter-spacing: 2px;
+          font-weight: lighter;
+        }
+      }
+    
+      .navbar__square {
+        width: 15%;
+    
+        &--figure {
+          display: flex;
+          width: 25px;
+          height: 25px;
+          justify-content: center;
+          align-items: center;
+          background-color: white;
+          box-shadow: 0px 14px 8px #f0eeee;
+        }
+      }
+    
+      .navbar__usersearch {
+        width: 35%;
+        display: flex;
+    
+        justify-content: flex-end;
+      }
+    
+      .navbar__letter {
+        font-weight: bold;
+      }
+    
+      .navbar__nav {
+        display: none;
+      }
+    
+      h1 {
+        font-family: $primary-font;
+        font-size: 24px;
+      }
+      h2 {
+        font-family: $secondary-font;
+      }
+    }
+
+
+    @media screen and (min-width:1000px){
+        .navbar {
+            width: 100%;
+            background-color: black;
+          }
+          .navbar__content {
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            max-width: 1024px;
+            height: 120px;
+            position: relative;
+        
+            &-menu {
+              background-color: white;
+              width: 100%;
+              height: 70%;
+              position: absolute;
+              top: 80px;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-evenly;
+              align-items: center;
+            }
+          }
+        
+          .navbar__nav {
+            width: 100%;
+            font-size: small;
+            color: black;
+            a {
+              color: black;
+              text-decoration: none;
+            }
+            ul {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-evenly;
+              li {
+                list-style: none;
+              }
+            }
+          }
+        
+          .navbar__toggle {
+            width: 25%;
+            display: none;
+            &--user {
+              width: 35px;
+              height: 35px;
+              border: solid 1px rgb(233, 233, 233);
+              text-align: center;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-right: 10px;
+            }
+            &--search {
+              width: 35px;
+              height: 35px;
+              border: solid 1px rgb(233, 233, 233);
+              text-align: center;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+        
+          .navbar__title {
+            width: 45%;
+            margin-left: 15px;
+            font-family: $primary-font;
+        
+            &--strong {
+              font-size: x-large;
+              font-weight: bolder;
+              letter-spacing: 1px;
+            }
+            &--thin {
+              font-size: x-large;
+              letter-spacing: 2px;
+              font-weight: lighter;
+            }
+          }
+        
+          .navbar__square {
+            display: flex;
+            justify-content: center;
+            width: 10%;
+            margin-left: 15px;
+        
+            &--figure {
+              width: 100%;
+              display: flex;
+              width: 55px;
+              height: 55px;
+              justify-content: center;
+              align-items: center;
+              background-color: white;
+              box-shadow: 0px 14px 8px #f0eeee;
+            }
+          }
+        
+          .navbar__usersearch {
+            width: 35%;
+            display: flex;
+            justify-content: center;
+          }
+        
+          .navbar__letter {
+            font-size: xx-large;
+            font-family: $primary-font;
+            font-weight: bolder;
+          }
+        
+          h1 {
+            font-family: $primary-font;
+            font-size: 24px;
+          }
+          h2 {
+            font-family: $secondary-font;
+          }
+        
+    }
 
 

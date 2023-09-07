@@ -1,0 +1,135 @@
+@media screen and (max-width:1000px){
+    .menu {
+        width: 100%;
+        align-items: center;
+      }
+      .menu__content {
+        display: flex;
+        flex-direction: column;
+        max-width: 320px;
+        margin: auto;
+      }
+      .menu__icono {
+        width: 100%;
+        margin-top: 10%;
+        width: 100%;
+        display: inline-flex;
+        justify-content: right;
+      }
+      .menu__icono__desktop {
+        display: none;
+      }
+      
+      .menu__title {
+        margin-top: 10%;
+        h3 {
+          letter-spacing: 1px;
+          color: #777777;
+        }
+      }
+      .menu__submenu {
+        margin-top: 10%;
+        h1 {
+          font-family: $secondary-font;
+          font-size: 60px;
+          font-weight: lighter;
+        }
+      }
+      
+      .menuslider {
+        margin-top: 25px;
+      }
+      
+      .menuslider__data {
+        display: inline-flex;
+        justify-content: space-evenly;
+        margin-bottom: 15px;
+        &--photo {
+          margin-right: 25px;
+        }
+      
+        &--content {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      
+        &--title {
+          h1 {
+            font-family: $secondary-font;
+          }
+        }
+        &--description {
+          p {
+            font-size: small;
+            font-family: $third-font;
+          }
+        }
+      }
+      
+      .menuslider__data__cards-right {
+        display: none;
+      }
+      
+      .menuslider__buttons {
+        display: inline-flex;
+        justify-content: flex-end;
+      }
+}
+
+@media screen and (min-width:1000px){
+    //MENU SECTION
+
+  .menu {
+    position: relative;
+    width: 100%;
+    padding-top: 200px;
+  }
+
+  .menu__content {
+    min-width: 1024px;
+  }
+
+  .menu__title {
+    padding-left: 40px;
+  }
+
+  .menu__submenu {
+    padding-left: 40px;
+  }
+
+  .menuslider__data {
+    display: flex;
+  }
+
+  .menuslider__data__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    &-left {
+      display: flex;
+      flex-direction: column;
+    }
+    &-right {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .menu__icono {
+    display: none;
+  }
+  .menu__icono__desktop {
+    position: absolute;
+    display: block;
+    text-align: left;
+    img {
+      width: 150px;
+    }
+  }
+
+  .menuslider__buttons {
+    display: none;
+  }
+
+}
