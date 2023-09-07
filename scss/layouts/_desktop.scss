@@ -301,8 +301,12 @@
   }
 
   .strongteam__box1 {
-    width: 270px;
-    height: 300px;
+    max-width: 270px;
+    max-height: 300px;
+    img{
+      width: 270px;
+      height: 300px;
+    }
   }
   .strongteam__box2 {
     width: 270px;
@@ -313,6 +317,9 @@
       height: 300px;
       padding: 0%;
       margin: 15px 0px 0px 15px;
+    }
+    &--imgcontent{
+      padding-top: 35px;
     }
   }
 

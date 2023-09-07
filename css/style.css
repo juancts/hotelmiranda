@@ -1123,6 +1123,10 @@ html, * {
     justify-content: right;
   }
   .strongteam__box1 {
+    max-width: 270px;
+    max-height: 300px;
+  }
+  .strongteam__box1 img {
     width: 270px;
     height: 300px;
   }
@@ -1136,6 +1140,9 @@ html, * {
     height: 300px;
     padding: 0%;
     margin: 15px 0px 0px 15px;
+  }
+  .strongteam__box2--imgcontent {
+    padding-top: 35px;
   }
   .rooms {
     display: flex;
@@ -2488,6 +2495,102 @@ html, * {
   }
   .room__content__card-iconsdsktp {
     display: none;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .contact__container {
+    max-width: 1024px;
+    display: flex;
+  }
+  .contact__container-numberback {
+    text-align: right;
+  }
+  .contact__container-numberback p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(243, 242, 242);
+    font-size: 200px;
+  }
+  .contact__container-icon {
+    margin-right: 35px;
+  }
+  .contact__container-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 85px;
+  }
+  .contact__container-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact__container-text h1 {
+    margin-bottom: 25px;
+  }
+  .contact__container-text h3 {
+    font-size: medium;
+    font-weight: 400;
+    font-family: "Roboto", Arial;
+  }
+  .contact__container__card {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    width: 300px;
+    position: relative;
+  }
+  .form {
+    width: 100%;
+  }
+  .form__container {
+    max-width: 1024px;
+    margin: auto;
+    margin-bottom: 45px;
+  }
+  .form__container img {
+    width: 100%;
+    max-width: 1024px;
+  }
+  .form__container__form {
+    margin-top: 75px;
+    position: relative;
+    text-align: center;
+  }
+  .form__container__form-datos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .form__container__form input {
+    padding-left: 30px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 45px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+  }
+  .form__container__form-inputcontainer i {
+    color: #BEAD8E;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 15px;
+  }
+  .form__container__form textarea {
+    background-color: #F8F8F8;
+  }
+  .text-up {
+    font-family: "Roboto", Arial;
+    min-width: 820px;
+    min-height: 200px;
+    padding-left: 30px;
+    padding-top: 15px;
+    border: none;
+    resize: none;
   }
 }
 @media screen and (max-width: 1000px) {
