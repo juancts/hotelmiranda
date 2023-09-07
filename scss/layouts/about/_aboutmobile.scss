@@ -64,15 +64,19 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
   .facilities {
-    background-color: #222222;
     width: 100%;
     height: 614px;
+
+    &-about{
+      background-color: #222222;
+    }
+
   }
   .facilities__content {
     max-width: 320px;
     margin: auto;
   }
-  .facilities__subtitle {
+  .facilities__subtitle-about {
     color: #ffffff;
   }
 

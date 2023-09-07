@@ -92,7 +92,9 @@
 
 .banner {
   width: 100%;
-  background-color: #333333;
+  background-image: url("../../assets/images/banner1.jpg");
+  background-position: center;
+    background-size: cover;
 }
 
 .banner__content {
@@ -229,6 +231,10 @@
   background-color: #e4e4e4;
   height: 300px;
   width: -webkit-fill-available;
+  img{
+    width: 270px;
+    height: 300px;
+  }
 }
 .strongteam__box2 {
   display: flex;
@@ -387,6 +393,11 @@
   width: 100%;
   background-color: #222222;
 }
+
+.introvideo__button-desktop{
+  display: none;
+}
+
 .introvideo__content {
   margin: auto;
   max-width: 320px;
@@ -421,10 +432,20 @@
 
 .introvideo__video {
   padding-top: 15%;
+  
+  iframe{
+    max-width: 320px;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 270px;
+    border: none;
+  }
 }
 
 .facilities {
   width: 100%;
+  
 }
 .facilities__content {
   max-width: 320px;

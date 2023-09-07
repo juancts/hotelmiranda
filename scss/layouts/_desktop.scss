@@ -449,8 +449,12 @@
 
   .introvideo__video {
     padding-top: 0%;
-    img {
-      width: 470px;
+    max-width: none;
+    
+    iframe{
+      max-width: none;
+      width: 570px;
+    height: 460px;
     }
   }
 
