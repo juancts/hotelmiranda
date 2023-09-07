@@ -1,118 +1,116 @@
 @media screen and (max-width: 1000px) {
+  .banner {
+    width: 100%;
+    background-image: url("../../assets/images/banner1.jpg");
+    background-position: center;
+    background-size: cover;
+    
 
-    .banner {
-        width: 100%;
-        background-image: url("../../assets/images/banner1.jpg");
-        background-position: center;
-          background-size: cover;
-      }
-      
-      .banner__content {
-        width: 90%;
-        margin: auto;
-        max-width: 320px;
-        padding: 35px 0px 35px 13px;
-        display: flex;
-        color: #ffffff;
-        flex-direction: column;
-      }
-      
-      .banner__title {
-        width: 60%;
-        margin: 25px 0px 25px 0px;
-        &--ppal {
-          letter-spacing: 1px;
-          margin: 15% 0% 15% 0%;
-        }
-      }
-      
-      .banner__subtitle {
-        font-size: 50px;
-        font-family: $secondary-font;
-        &--txt {
-          margin: auto;
-        }
-      }
-      
-      .banner__button {
-        color: #ffffff;
-        background-color: #bead8e;
-        width: 217px;
-        height: 60px;
-        margin: 10px 0px 10px 0px;
-        &--lm {
-          background-color: transparent;
-          border: solid 1px #ffffff54;
-        }
-        &--ca {
-          margin-top: 35px;
-          border: none;
-        }
-      }
+  }
 
+  .banner__content {
+    width: 90%;
+    margin: auto;
+    max-width: 320px;
+    padding: 35px 0px 35px 13px;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+  }
 
+  .banner__title {
+    width: 60%;
+    margin: 25px 0px 25px 0px;
+    &--ppal {
+      letter-spacing: 1px;
+      margin: 15% 0% 15% 0%;
+    }
+  }
 
+  .banner__subtitle {
+    font-size: 50px;
+    font-family: $secondary-font;
+    &--txt {
+      margin: auto;
+    }
+  }
+
+  .banner__button {
+    color: #ffffff;
+    background-color: #bead8e;
+    width: 217px;
+    height: 60px;
+    margin: 10px 0px 10px 0px;
+    &--lm {
+      background-color: transparent;
+      border: solid 1px #ffffff54;
+    }
+    &--ca {
+      margin-top: 35px;
+      border: none;
+    }
+  }
 }
 
 //DESKTOP
 
 @media only screen and (min-width: 1000px) {
+  .banner {
+    width: 100%;
+    background-image: url("../../assets/images/banner1.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
 
-    .banner {
-        width: 100%;
-        background-image: url("../../assets/images/banner1.jpg");
-        background-position: center;
-        background-size: cover;
-        
-      }
-      
-      .banner__content {
-        max-width: 1024px;
-        display: flex;
-        color: #ffffff;
-        flex-direction: column;
-        padding: 75px;
-      }
-    
-      .banner__title {
-        font-size: small;
-        width: 90%;
-        margin: 75px 0px 25px 0px;
-        &--ppal {
-          font-family: $primary-font;
-          letter-spacing: 1px;
-          margin: 15% 0% 15% 0%;
-        }
-      }
-    
-      .banner__subtitle {
-        max-width: 370px;
-        font-size: 56px;
-        font-family: $secondary-font;
-        &--txt {
-          margin: auto;
-        }
-      }
-      .banner__buttons {
-        display: inline-flex;
-      }
-      .banner__button {
-        color: #ffffff;
-        background-color: #bead8e;
-        width: 217px;
-        height: 60px;
-        margin: 10px 15px 10px 0px;
-        &--lm {
-          background-color: transparent;
-          border: solid 1px #ffffff54;
-        }
-        &--ca {
-          margin-top: 35px;
-          border: none;
-        }
-      }
+  .banner__content {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    padding: 75px;
+  }
 
+  .banner__title {
+    font-size: small;
+    width: 90%;
+    margin: 75px 0px 25px 0px;
+    &--ppal {
+      font-family: $primary-font;
+      letter-spacing: 1px;
+      margin: 15% 0% 15% 0%;
+    }
+  }
 
+  .banner__subtitle {
+    max-width: 370px;
+    font-size: 56px;
+    font-family: $secondary-font;
+    &--txt {
+      margin: auto;
+      p{
+        font-size: 1px;
+      }
+    }
+  }
+  .banner__buttons {
+    display: inline-flex;
+  }
+  .banner__button {
+    color: #ffffff;
+    background-color: #bead8e;
+    width: 217px;
+    height: 60px;
+    margin: 10px 15px 10px 0px;
+    &--lm {
+      background-color: transparent;
+      border: solid 1px #ffffff54;
+    }
+    &--ca {
+      margin-top: 35px;
+      border: none;
+    }
+  }
 }
-
-

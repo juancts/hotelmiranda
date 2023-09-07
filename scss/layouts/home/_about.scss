@@ -108,6 +108,7 @@
 
   .about__main {
     width: 100%;
+    max-width: 1024px;
     display: flex;
     flex-direction: row-reverse;
   }
@@ -119,7 +120,6 @@
     }
   }
   .about__content {
-    max-width: 1024px;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -132,6 +132,7 @@
       background-color: #f9f9f9;
       p {
         max-width: 400px;
+        font-size: small;
       }
     }
     &-title {
@@ -172,17 +173,49 @@
     }
   }
   .strongteam__box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 25% 0%;
     width: 270px;
     max-height: 300px;
     padding: 0px;
     &--contentblk {
+      background-color: #222222;
+      color: white;
       width: 270px;
       height: 300px;
       padding: 0%;
       margin: 15px 0px 0px 15px;
+      span {
+        font-family: $secondary-font;
+        font-size: 25px;
+      }
+      img{
+        width: 40px;
+      margin: 0% 0% 20% 0%;
+      }
     }
     &--imgcontent{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       padding-top: 35px;
+      
+    }
+    img{
+      width: 40px;
+      margin: 0% 0% 20% 0%;
+    }
+    span {
+      font-family: $secondary-font;
+      font-size: 25px;
+    }
+    &--txtcontent {
+      text-align: center;
+      margin: 10% 25% 0% 25%;
     }
   }
 }

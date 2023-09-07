@@ -54,7 +54,8 @@
     .dates {
         background-color: #222222;
         width: 100%;
-    
+        display: flex;
+        justify-content: center;
         input {
           display: flex;
           flex-direction: row-reverse;
