@@ -403,6 +403,7 @@ html, * {
     margin: auto;
     max-width: 320px;
     align-items: center;
+    position: relative;
   }
   .navbar__content {
     max-width: 320px;
@@ -459,7 +460,24 @@ html, * {
     font-weight: bold;
   }
   .navbar__nav {
+    position: absolute;
     display: none;
+    background-color: white;
+    width: 100vw;
+    top: 55px;
+    padding-top: 15px;
+    padding-left: 45px;
+    border-top: solid rgb(37, 22, 22);
+  }
+  .navbar__nav ul {
+    list-style: none;
+  }
+  .navbar__nav ul a {
+    color: black;
+    text-decoration: none;
+  }
+  .navbar__nav ul li {
+    margin-bottom: 20px;
   }
   h1 {
     font-family: "Archivo", Arial;
@@ -494,6 +512,7 @@ html, * {
     align-items: center;
   }
   .navbar__nav {
+    display: block;
     width: 100%;
     font-size: small;
     color: black;
